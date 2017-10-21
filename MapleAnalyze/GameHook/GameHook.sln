@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GameHook", "GameHook.vcproj", "{F4C11615-2542-41DB-98A2-31C10A647DCC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GameEngine", "GameEngine\GameEngine.vcproj", "{822A2EB1-3F3B-4596-B2DB-A5CB8F876C43}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F4C11615-2542-41DB-98A2-31C10A647DCC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F4C11615-2542-41DB-98A2-31C10A647DCC}.Debug|Win32.Build.0 = Debug|Win32
+		{F4C11615-2542-41DB-98A2-31C10A647DCC}.Release|Win32.ActiveCfg = Release|Win32
+		{F4C11615-2542-41DB-98A2-31C10A647DCC}.Release|Win32.Build.0 = Release|Win32
+		{822A2EB1-3F3B-4596-B2DB-A5CB8F876C43}.Debug|Win32.ActiveCfg = Debug|Win32
+		{822A2EB1-3F3B-4596-B2DB-A5CB8F876C43}.Debug|Win32.Build.0 = Debug|Win32
+		{822A2EB1-3F3B-4596-B2DB-A5CB8F876C43}.Release|Win32.ActiveCfg = Release|Win32
+		{822A2EB1-3F3B-4596-B2DB-A5CB8F876C43}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

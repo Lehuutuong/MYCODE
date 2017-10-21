@@ -1,0 +1,8 @@
+; msvc.def : Declares the module parameters for the DLL.
+
+LIBRARY      "msvc"
+DESCRIPTION  'msvc Service Provider'
+
+EXPORTS
+    ; Explicit exports can go here
+	WSPStartup

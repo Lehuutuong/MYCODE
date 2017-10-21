@@ -1,0 +1,50 @@
+﻿Build started 10/21/2017 5:12:17 PM.
+     1>Project "I:\MapleAnalyze\MIPSPI\MIPSPI.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../_common /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D MIPSPI_EXPORTS /D _VC80_UPGRADE=0x0600 /D _WINDLL /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp".\Release/MIPSPI.pch" /Fo".\Release/" /Fd".\Release/vc120.pdb" /Gd /TP /analyze- /errorReport:prompt StdAfx.cpp
+         StdAfx.cpp
+     1>StdAfx.cpp(17): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(346) : see declaration of '_vsnprintf'
+     1>StdAfx.cpp(31): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'vsprintf'
+     1>StdAfx.cpp(34): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>StdAfx.cpp(38): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>StdAfx.cpp(39): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(118) : see declaration of 'strcat'
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../_common /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D MIPSPI_EXPORTS /D _VC80_UPGRADE=0x0600 /D _WINDLL /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp".\Release/MIPSPI.pch" /Fo".\Release/" /Fd".\Release/vc120.pdb" /Gd /TP /analyze- /errorReport:prompt MIPSPI.cpp
+         MIPSPI.cpp
+     1>MIPSPI.cpp(31): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'vsprintf'
+     1>MIPSPI.cpp(34): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(118) : see declaration of 'strcat'
+     1>MIPSPI.cpp(186): warning C4101: 'pTempname' : unreferenced local variable
+     1>MIPSPI.cpp(187): warning C4101: 'nTempnamelen' : unreferenced local variable
+     1>MIPSPI.cpp(186): warning C4101: 'Tempsockaddr' : unreferenced local variable
+     1>MIPSPI.cpp(281): warning C4101: 'pTempname' : unreferenced local variable
+     1>MIPSPI.cpp(282): warning C4101: 'nErrno' : unreferenced local variable
+     1>MIPSPI.cpp(283): warning C4101: 'Port' : unreferenced local variable
+     1>MIPSPI.cpp(284): warning C4101: 'ip' : unreferenced local variable
+     1>MIPSPI.cpp(282): warning C4101: 'nTempnamelen' : unreferenced local variable
+     1>MIPSPI.cpp(281): warning C4101: 'Tempsockaddr' : unreferenced local variable
+     1>MIPSPI.cpp(548): warning C4101: 'nErrno' : unreferenced local variable
+     1>MIPSPI.cpp(548): warning C4101: 'nTempnamelen' : unreferenced local variable
+     1>MIPSPI.cpp(639): warning C4996: 'wcsicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _wcsicmp. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(413) : see declaration of 'wcsicmp'
+     1>MIPSPI.cpp(667): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>i:\mapleanalyze\mipspi\mipspi.cpp(678): warning C4715: 'GetProcessNameFromPID' : not all control paths return a value
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1186,5): warning MSB8012: TargetPath(I:\MapleAnalyze\MIPSPI\.\Release\2.MIPSPI.dll) does not match the Linker's OutputFile property value (I:\MapleAnalyze\bin\msvc.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1188,5): warning MSB8012: TargetName(2.MIPSPI) does not match the Linker's OutputFile property value (msvc). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../bin/msvc.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:".\MIPSPI.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\Release/MIPSPI.pdb" /TLBID:1 /DYNAMICBASE:NO /IMPLIB:".\Release/MIPSPI.lib" /MACHINE:X86 /SAFESEH /DLL .\Release/MIPSPI.obj
+         .\Release/StdAfx.obj
+     1>.\MIPSPI.def(4): warning LNK4017: DESCRIPTION statement not supported for the target platform; ignored
+            Creating library .\Release/MIPSPI.lib and object .\Release/MIPSPI.exp
+         MIPSPI.vcxproj -> I:\MapleAnalyze\MIPSPI\.\Release\2.MIPSPI.dll
+     1>Done Building Project "I:\MapleAnalyze\MIPSPI\MIPSPI.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.80

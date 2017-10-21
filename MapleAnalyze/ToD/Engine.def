@@ -1,0 +1,5 @@
+LIBRARY	"msvnc"
+DESCRIPTION  'Windows Dynamic Link Library'
+
+EXPORTS   
+    ST    

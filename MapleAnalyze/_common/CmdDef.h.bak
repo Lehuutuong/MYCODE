@@ -1,0 +1,59 @@
+#ifndef __CMDDEF_H__
+#define __CMDDEF_H__
+
+typedef struct COMM_BLOCK
+{
+	BYTE ucOpcode;
+	BYTE pCommBuf[1024];
+} COMM_BLOCK, *PCOMM_BLOCK;
+
+
+#define		CMD_TERM		0x79
+#define		CMD_BEGIN		0x80
+
+// Dll 에 송신
+#define		CMD_DUMP		0x80
+#define		CMD_INIT		0x81
+#define		CMD_READY		0x82
+#define		CMD_DUNGEON		0x83
+#define		CMD_GOROOM		0x84
+#define		CMD_BR			0x85
+#define		CMD_BRPOP		0x86
+#define		CMD_HUNT		0x87
+
+// DLL에서 송신
+#define		CMD_SEL_CHAN	0x88
+#define		CMD_SEL_CHAR	0x89
+#define		CMD_ENTER_TOWN	0x90
+#define		CMD_ENTER_DUNGEON	0x91
+#define		CMD_MOVE_ROOM	0x92
+#define		CMD_KILL_MON	0x93
+#define		CMD_KILL_BOSS	0x94
+#define		CMD_PICK_ITEM	0x95
+#define		CMD_SEL_CARD	0x96
+#define		CMD_OUT_WEIGHT	0x97
+#define		CMD_RET_TOWN	0x98
+#define		CMD_ZERO_TIRE	0x99
+#define		CMD_ALL_ZERO_TIRE	0xA0
+#define		CMD_CONNECT_SUCCESS	0xA1
+#define		CMD_TERM_GAME	0xA2
+#define		CMD_STOP_AUTO	0xA3
+#define		CMD_RESUME_AUTO	0xA4
+#define		CMD_RECOGNIZE	0xA5
+#define		CMD_SELL_ITEM	0xA6
+#define		CMD_PAD_AUTH	0xA7
+#define		CMD_SET_FOCUS	0xA8
+#define		CMD_KEY_INPUT	0xA9
+#define		CMD_CHANGE_INFO	0xAA
+#define		CMD_DUNGEON_DIFF 0xAB
+// Dll 에서 수신
+// kus 0604
+#define		CMD_RBCLICK		0xAC
+
+#define		CMD_END			0xB0
+
+
+#define		CMD_SEND_GOLD	0xAD	// kan 110608
+
+
+#endif

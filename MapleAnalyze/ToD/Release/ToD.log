@@ -1,0 +1,32 @@
+﻿Build started 10/21/2017 5:17:42 PM.
+     1>Project "I:\MapleAnalyze\ToD\ToD.vcxproj" on node 3 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../_common /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D TOD_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\3.ToD.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt export.cpp
+         export.cpp
+     1>export.cpp(447): warning C4101: 'dwThreadID' : unreferenced local variable
+     1>export.cpp(448): warning C4101: 'szModuleName' : unreferenced local variable
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1186,5): warning MSB8012: TargetPath(I:\MapleAnalyze\Release\3.ToD.dll) does not match the Linker's OutputFile property value (I:\MapleAnalyze\bin\engine.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1188,5): warning MSB8012: TargetName(3.ToD) does not match the Linker's OutputFile property value (engine). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../bin/engine.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:../_common ws2_32.lib Advapi32.lib user32.lib gdi32.lib VMProtectSDK32.lib Shlwapi.lib /NODEFAULTLIB:libc.lib /DEF:"Engine.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"I:\MapleAnalyze\Release\3.ToD.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /BASE:"0x6500000" /DYNAMICBASE /FIXED:NO /NXCOMPAT /IMPLIB:"I:\MapleAnalyze\Release\3.ToD.lib" /MACHINE:X86 /SAFESEH /DLL Release\ToD.res
+         Release\AnyJack.obj
+         Release\comm.obj
+         Release\dllmain.obj
+         Release\export.obj
+         Release\log.obj
+         Release\stdafx.obj
+         Release\ToD.obj
+     1>Engine.def(2): warning LNK4017: DESCRIPTION statement not supported for the target platform; ignored
+            Creating library I:\MapleAnalyze\Release\3.ToD.lib and object I:\MapleAnalyze\Release\3.ToD.exp
+     1>3.ToD.exp : warning LNK4070: /OUT:msvnc.dll directive in .EXP differs from output filename '../bin/engine.dll'; ignoring directive
+         Generating code
+     1>i:\mapleanalyze\tod\export.cpp(633): warning C4715: 'GetProcessNameFromPID' : not all control paths return a value
+         Finished generating code
+     1>HookApi.lib(HookApi.obj) : error LNK2026: module unsafe for SAFESEH image.
+     1>3.ToD.exp : warning LNK4070: /OUT:msvnc.dll directive in .EXP differs from output filename '../bin/engine.dll'; ignoring directive
+     1>../bin/engine.dll : fatal error LNK1281: Unable to generate SAFESEH image.
+     1>Done Building Project "I:\MapleAnalyze\ToD\ToD.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.40

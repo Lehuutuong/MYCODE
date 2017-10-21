@@ -1,0 +1,22 @@
+;engine2.def
+
+LIBRARY      "engine2"
+DESCRIPTION  'Dynamic Link Library'
+
+SECTIONS
+	.GAMEHOOK   Read Write Shared
+
+EXPORTS
+	Fn_1	 @1
+	Fn_2	 @2
+	Fn_3	 @3
+	Fn_4	 @4
+	Fn_5	 @5
+	Fn_6	 @6
+	Fn_7	 @7
+	Fn_8	 @8
+	Fn_9	 @9
+	Fn_10	 @10
+	Fn_11	 @11
+	Fn_12	 @12
+	Fn_13	 @13

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Test">
+</Property><Property Name="Solution File" Value="E:\MapleAnalyze\Test.sln">
+</Property><Property Name="User Options File" Value="E:\MapleAnalyze\Test.suo">
+</Property><Property Name="Date" Value="Wednesday, September 20, 2017">
+</Property><Property Name="Time" Value="21:00 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="Test.sln" Description="File successfully backed up as E:\MapleAnalyze\Test.sln.old">
+</Event><Event ErrorLevel="0" Project="" Source="Test.suo" Description="File successfully backed up as E:\MapleAnalyze\Test.suo.old">
+</Event><Event ErrorLevel="0" Project="Test" Source="Test\Test.vcproj" Description="Converting project file 'E:\MapleAnalyze\Test\Test.vcproj'.">
+</Event><Event ErrorLevel="1" Project="Test" Source="Test\Test.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="Test" Source="Test\Test.vcproj" Description="MSB8012: $(TargetPath) ('E:\MapleAnalyze\Release\1.Test.exe') does not match the Linker's OutputFile property value '..\Bin\1.Test.exe' ('E:\Bin\1.Test.exe') in project configuration 'Release|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetPath) property value matches the value specified in %(Link.OutputFile).">
+</Event><Event ErrorLevel="0" Project="Test" Source="Test\Test.vcproj" Description="Done converting to new project file 'E:\MapleAnalyze\Test\Test.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="Test" Source="Test\Test.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="MIPSPI" Source="MIPSPI\MIPSPI.vcproj" Description="Converting project file 'E:\MapleAnalyze\MIPSPI\MIPSPI.vcproj'.">
+</Event><Event ErrorLevel="1" Project="MIPSPI" Source="MIPSPI\MIPSPI.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="MIPSPI" Source="MIPSPI\MIPSPI.vcproj" Description="MSB8012: $(TargetName) ('2.MIPSPI') does not match the Linker's OutputFile property value '../bin/msvc.dll' ('msvc') in project configuration 'Release|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetName) property value matches the value specified in %(Link.OutputFile).">
+</Event><Event ErrorLevel="1" Project="MIPSPI" Source="MIPSPI\MIPSPI.vcproj" Description="MSB8012: $(TargetPath) ('E:\MapleAnalyze\MIPSPI\.\Release\2.MIPSPI.dll') does not match the Linker's OutputFile property value '../bin/msvc.dll' ('E:\MapleAnalyze\../bin/msvc.dll') in project configuration 'Release|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetPath) property value matches the value specified in %(Link.OutputFile).">
+</Event><Event ErrorLevel="0" Project="MIPSPI" Source="MIPSPI\MIPSPI.vcproj" Description="Done converting to new project file 'E:\MapleAnalyze\MIPSPI\MIPSPI.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="MIPSPI" Source="MIPSPI\MIPSPI.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ToD" Source="ToD\ToD.vcproj" Description="Converting project file 'E:\MapleAnalyze\ToD\ToD.vcproj'.">
+</Event><Event ErrorLevel="2" Project="ToD" Source="ToD\ToD.vcproj" Description="File 'E:\MapleAnalyze\ToD\ToD.vcproj' was not found.">
+</Event><Event ErrorLevel="2" Project="ToD" Source="ToD\ToD.vcproj" Description="Project upgrade failed.">
+</Event><Event ErrorLevel="3" Project="ToD" Source="ToD\ToD.vcproj" Description="Not Converted">
+</Event><Event ErrorLevel="0" Project="GameHook" Source="GameHook\GameHook.vcproj" Description="Converting project file 'E:\MapleAnalyze\GameHook\GameHook.vcproj'.">
+</Event><Event ErrorLevel="1" Project="GameHook" Source="GameHook\GameHook.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="GameHook" Source="GameHook\GameHook.vcproj" Description="MSB8012: $(TargetName) ('4_GameHook') does not match the Linker's OutputFile property value '../bin/engine2.dll' ('engine2') in project configuration 'Release|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetName) property value matches the value specified in %(Link.OutputFile).">
+</Event><Event ErrorLevel="1" Project="GameHook" Source="GameHook\GameHook.vcproj" Description="MSB8012: $(TargetPath) ('E:\MapleAnalyze\GameHook\../../Build/Release/GameHook\4_GameHook.dll') does not match the Linker's OutputFile property value '../bin/engine2.dll' ('E:\MapleAnalyze\../bin/engine2.dll') in project configuration 'Release|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetPath) property value matches the value specified in %(Link.OutputFile).">
+</Event><Event ErrorLevel="1" Project="GameHook" Source="GameHook\GameHook.vcproj" Description="MSB8012: $(TargetName) ('4_GameHook') does not match the Linker's OutputFile property value '..\Bin\service.dll' ('service') in project configuration 'Debug|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetName) property value matches the value specified in %(Link.OutputFile).">
+</Event><Event ErrorLevel="1" Project="GameHook" Source="GameHook\GameHook.vcproj" Description="MSB8012: $(TargetPath) ('E:\MapleAnalyze\GameHook\../../Build/Debug/GameHook\4_GameHook.dll') does not match the Linker's OutputFile property value '..\Bin\service.dll' ('E:\Bin\service.dll') in project configuration 'Debug|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetPath) property value matches the value specified in %(Link.OutputFile).">
+</Event><Event ErrorLevel="0" Project="GameHook" Source="GameHook\GameHook.vcproj" Description="Done converting to new project file 'E:\MapleAnalyze\GameHook\GameHook.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="GameHook" Source="GameHook\GameHook.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Test.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Test.sln" Description="Converted">
+</Event></UpgradeLog>
