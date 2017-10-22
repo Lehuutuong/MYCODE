@@ -1,0 +1,312 @@
+﻿Build started 9/15/2017 11:12:27 AM.
+     1>Project "F:\working\Work\2007_04_20\AntiKeylogger\AntiKeylogger.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file ".\Debug\AntiKeylogger.lastbuildstate".
+       InitializeBuildStatus:
+         Touching ".\Debug\AntiKeylogger.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNINSTALL_NOTIFY /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp".\Debug\AntiKeylogger.pch" /Fo".\Debug\\" /Fd".\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt StdAfx.cpp
+         StdAfx.cpp
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNINSTALL_NOTIFY /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp".\Debug\AntiKeylogger.pch" /Fo".\Debug\\" /Fd".\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt AdvancedOptionPage.cpp AntiKeylogger.cpp AntiKeyloggerDlg.cpp Comm.cpp DetectPage.cpp FileInfo.cpp Global.cpp "hash&crypt.cpp" hook.cpp Init.cpp logo.cpp NotifyDialog.cpp password.cpp PrefsStatic.cpp ThreadDataList.cpp Trans.cpp TrayDialog.cpp uninstall.cpp UserOptionPage.cpp WhitePage.cpp
+         WhitePage.cpp
+     1>f:\working\work\2007_04_20\antikeylogger\whitepage.cpp(77): warning C4996: 'wcsicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _wcsicmp. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(390) : see declaration of 'wcsicmp'
+     1>f:\working\work\2007_04_20\antikeylogger\whitepage.cpp(80): warning C4996: 'wcsicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _wcsicmp. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(390) : see declaration of 'wcsicmp'
+     1>f:\working\work\2007_04_20\antikeylogger\whitepage.cpp(86): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(283) : see declaration of 'wcscpy'
+     1>f:\working\work\2007_04_20\antikeylogger\whitepage.cpp(151): warning C4101: 'pInfo' : unreferenced local variable
+         UserOptionPage.cpp
+         uninstall.cpp
+     1>f:\working\work\2007_04_20\antikeylogger\ntstatus.h(1002): warning C4005: 'DBG_PRINTEXCEPTION_C' : macro redefinition
+                 c:\program files\microsoft sdks\windows\v7.0a\include\winnt.h(1994) : see previous definition of 'DBG_PRINTEXCEPTION_C'
+     1>f:\working\work\2007_04_20\antikeylogger\ntstatus.h(1011): warning C4005: 'DBG_RIPEXCEPTION' : macro redefinition
+                 c:\program files\microsoft sdks\windows\v7.0a\include\winnt.h(1995) : see previous definition of 'DBG_RIPEXCEPTION'
+     1>f:\working\work\2007_04_20\antikeylogger\ntstatus.h(1390): warning C4005: 'STATUS_LONGJUMP' : macro redefinition
+                 c:\program files\microsoft sdks\windows\v7.0a\include\winnt.h(2002) : see previous definition of 'STATUS_LONGJUMP'
+     1>f:\working\work\2007_04_20\antikeylogger\ntstatus.h(1417): warning C4005: 'STATUS_UNWIND_CONSOLIDATE' : macro redefinition
+                 c:\program files\microsoft sdks\windows\v7.0a\include\winnt.h(2003) : see previous definition of 'STATUS_UNWIND_CONSOLIDATE'
+     1>f:\working\work\2007_04_20\antikeylogger\ntstatus.h(1629): warning C4005: 'STATUS_INVALID_PARAMETER' : macro redefinition
+                 c:\program files\microsoft sdks\windows\v7.0a\include\winnt.h(2008) : see previous definition of 'STATUS_INVALID_PARAMETER'
+     1>f:\working\work\2007_04_20\antikeylogger\ntstatus.h(4377): warning C4005: 'STATUS_DLL_NOT_FOUND' : macro redefinition
+                 c:\program files\microsoft sdks\windows\v7.0a\include\winnt.h(2025) : see previous definition of 'STATUS_DLL_NOT_FOUND'
+     1>f:\working\work\2007_04_20\antikeylogger\ntstatus.h(4406): warning C4005: 'STATUS_ORDINAL_NOT_FOUND' : macro redefinition
+                 c:\program files\microsoft sdks\windows\v7.0a\include\winnt.h(2026) : see previous definition of 'STATUS_ORDINAL_NOT_FOUND'
+     1>f:\working\work\2007_04_20\antikeylogger\ntstatus.h(4416): warning C4005: 'STATUS_ENTRYPOINT_NOT_FOUND' : macro redefinition
+                 c:\program files\microsoft sdks\windows\v7.0a\include\winnt.h(2027) : see previous definition of 'STATUS_ENTRYPOINT_NOT_FOUND'
+     1>f:\working\work\2007_04_20\antikeylogger\ntstatus.h(4504): warning C4005: 'STATUS_DLL_INIT_FAILED' : macro redefinition
+                 c:\program files\microsoft sdks\windows\v7.0a\include\winnt.h(2029) : see previous definition of 'STATUS_DLL_INIT_FAILED'
+     1>f:\working\work\2007_04_20\antikeylogger\ntstatus.h(8145): warning C4005: 'STATUS_STACK_BUFFER_OVERRUN' : macro redefinition
+                 c:\program files\microsoft sdks\windows\v7.0a\include\winnt.h(2033) : see previous definition of 'STATUS_STACK_BUFFER_OVERRUN'
+     1>f:\working\work\2007_04_20\antikeylogger\ntstatus.h(10006): warning C4005: 'STATUS_SXS_EARLY_DEACTIVATION' : macro redefinition
+                 c:\program files\microsoft sdks\windows\v7.0a\include\winnt.h(2037) : see previous definition of 'STATUS_SXS_EARLY_DEACTIVATION'
+     1>f:\working\work\2007_04_20\antikeylogger\ntstatus.h(10015): warning C4005: 'STATUS_SXS_INVALID_DEACTIVATION' : macro redefinition
+                 c:\program files\microsoft sdks\windows\v7.0a\include\winnt.h(2038) : see previous definition of 'STATUS_SXS_INVALID_DEACTIVATION'
+     1>f:\working\work\2007_04_20\antikeylogger\uninstall.cpp(106): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(283) : see declaration of 'wcscpy'
+     1>f:\working\work\2007_04_20\antikeylogger\uninstall.cpp(122): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(276) : see declaration of 'wcscat'
+     1>f:\working\work\2007_04_20\antikeylogger\uninstall.cpp(123): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(276) : see declaration of 'wcscat'
+     1>f:\working\work\2007_04_20\antikeylogger\uninstall.cpp(130): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(276) : see declaration of 'wcscat'
+     1>f:\working\work\2007_04_20\antikeylogger\uninstall.cpp(131): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(276) : see declaration of 'wcscat'
+     1>f:\working\work\2007_04_20\antikeylogger\uninstall.cpp(132): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(276) : see declaration of 'wcscat'
+     1>f:\working\work\2007_04_20\antikeylogger\uninstall.cpp(151): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(283) : see declaration of 'wcscpy'
+     1>f:\working\work\2007_04_20\antikeylogger\uninstall.cpp(166): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>f:\working\work\2007_04_20\antikeylogger\uninstall.cpp(168): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>f:\working\work\2007_04_20\antikeylogger\uninstall.cpp(15): warning C4101: 'wsDir' : unreferenced local variable
+     1>f:\working\work\2007_04_20\antikeylogger\uninstall.cpp(373): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(283) : see declaration of 'wcscpy'
+         TrayDialog.cpp
+     1>f:\working\work\2007_04_20\antikeylogger\traydialog.cpp(47): error C2440: 'static_cast' : cannot convert from 'void (__thiscall CTrayDialog::* )(WPARAM,LPARAM)' to 'LRESULT (__thiscall CWnd::* )(WPARAM,LPARAM)'
+                 None of the functions with this name in scope match the target type
+         Trans.cpp
+         ThreadDataList.cpp
+         PrefsStatic.cpp
+     1>f:\working\work\2007_04_20\antikeylogger\prefsstatic.cpp(46): error C2440: 'static_cast' : cannot convert from 'BOOL (__thiscall CPrefsStatic::* )(WPARAM,LPARAM)' to 'LRESULT (__thiscall CWnd::* )(WPARAM,LPARAM)'
+                 None of the functions with this name in scope match the target type
+         password.cpp
+     1>f:\working\work\2007_04_20\antikeylogger\password.cpp(120): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(283) : see declaration of 'wcscpy'
+         NotifyDialog.cpp
+     1>f:\working\work\2007_04_20\antikeylogger\notifydialog.cpp(244): warning C4996: 'wcstombs': This function or variable may be unsafe. Consider using wcstombs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdlib.h(533) : see declaration of 'wcstombs'
+         logo.cpp
+     1>f:\working\work\2007_04_20\antikeylogger\logo.cpp(8): error C2365: 'SetLayeredWindowAttributes' : redefinition; previous definition was 'function'
+                 c:\program files\microsoft sdks\windows\v7.0a\include\winuser.h(4018) : see declaration of 'SetLayeredWindowAttributes'
+     1>f:\working\work\2007_04_20\antikeylogger\logo.cpp(33): error C2659: '=' : function as left operand
+     1>f:\working\work\2007_04_20\antikeylogger\logo.cpp(35): error C2664: 'UuidToStringW' : cannot convert parameter 2 from 'PWSTR *' to 'RPC_WSTR *'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+         Init.cpp
+     1>f:\working\work\2007_04_20\antikeylogger\ntstatus.h(1002): warning C4005: 'DBG_PRINTEXCEPTION_C' : macro redefinition
+                 c:\program files\microsoft sdks\windows\v7.0a\include\winnt.h(1994) : see previous definition of 'DBG_PRINTEXCEPTION_C'
+     1>f:\working\work\2007_04_20\antikeylogger\ntstatus.h(1011): warning C4005: 'DBG_RIPEXCEPTION' : macro redefinition
+                 c:\program files\microsoft sdks\windows\v7.0a\include\winnt.h(1995) : see previous definition of 'DBG_RIPEXCEPTION'
+     1>f:\working\work\2007_04_20\antikeylogger\ntstatus.h(1390): warning C4005: 'STATUS_LONGJUMP' : macro redefinition
+                 c:\program files\microsoft sdks\windows\v7.0a\include\winnt.h(2002) : see previous definition of 'STATUS_LONGJUMP'
+     1>f:\working\work\2007_04_20\antikeylogger\ntstatus.h(1417): warning C4005: 'STATUS_UNWIND_CONSOLIDATE' : macro redefinition
+                 c:\program files\microsoft sdks\windows\v7.0a\include\winnt.h(2003) : see previous definition of 'STATUS_UNWIND_CONSOLIDATE'
+     1>f:\working\work\2007_04_20\antikeylogger\ntstatus.h(1629): warning C4005: 'STATUS_INVALID_PARAMETER' : macro redefinition
+                 c:\program files\microsoft sdks\windows\v7.0a\include\winnt.h(2008) : see previous definition of 'STATUS_INVALID_PARAMETER'
+     1>f:\working\work\2007_04_20\antikeylogger\ntstatus.h(4377): warning C4005: 'STATUS_DLL_NOT_FOUND' : macro redefinition
+                 c:\program files\microsoft sdks\windows\v7.0a\include\winnt.h(2025) : see previous definition of 'STATUS_DLL_NOT_FOUND'
+     1>f:\working\work\2007_04_20\antikeylogger\ntstatus.h(4406): warning C4005: 'STATUS_ORDINAL_NOT_FOUND' : macro redefinition
+                 c:\program files\microsoft sdks\windows\v7.0a\include\winnt.h(2026) : see previous definition of 'STATUS_ORDINAL_NOT_FOUND'
+     1>f:\working\work\2007_04_20\antikeylogger\ntstatus.h(4416): warning C4005: 'STATUS_ENTRYPOINT_NOT_FOUND' : macro redefinition
+                 c:\program files\microsoft sdks\windows\v7.0a\include\winnt.h(2027) : see previous definition of 'STATUS_ENTRYPOINT_NOT_FOUND'
+     1>f:\working\work\2007_04_20\antikeylogger\ntstatus.h(4504): warning C4005: 'STATUS_DLL_INIT_FAILED' : macro redefinition
+                 c:\program files\microsoft sdks\windows\v7.0a\include\winnt.h(2029) : see previous definition of 'STATUS_DLL_INIT_FAILED'
+     1>f:\working\work\2007_04_20\antikeylogger\ntstatus.h(8145): warning C4005: 'STATUS_STACK_BUFFER_OVERRUN' : macro redefinition
+                 c:\program files\microsoft sdks\windows\v7.0a\include\winnt.h(2033) : see previous definition of 'STATUS_STACK_BUFFER_OVERRUN'
+     1>f:\working\work\2007_04_20\antikeylogger\ntstatus.h(10006): warning C4005: 'STATUS_SXS_EARLY_DEACTIVATION' : macro redefinition
+                 c:\program files\microsoft sdks\windows\v7.0a\include\winnt.h(2037) : see previous definition of 'STATUS_SXS_EARLY_DEACTIVATION'
+     1>f:\working\work\2007_04_20\antikeylogger\ntstatus.h(10015): warning C4005: 'STATUS_SXS_INVALID_DEACTIVATION' : macro redefinition
+                 c:\program files\microsoft sdks\windows\v7.0a\include\winnt.h(2038) : see previous definition of 'STATUS_SXS_INVALID_DEACTIVATION'
+     1>f:\working\work\2007_04_20\antikeylogger\init.cpp(84): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(283) : see declaration of 'wcscpy'
+     1>f:\working\work\2007_04_20\antikeylogger\init.cpp(85): warning C4996: 'wcslwr': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _wcslwr. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(395) : see declaration of 'wcslwr'
+     1>f:\working\work\2007_04_20\antikeylogger\init.cpp(241): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(283) : see declaration of 'wcscpy'
+         hook.cpp
+     1>f:\working\work\2007_04_20\antikeylogger\ntstatus.h(1002): warning C4005: 'DBG_PRINTEXCEPTION_C' : macro redefinition
+                 c:\program files\microsoft sdks\windows\v7.0a\include\winnt.h(1994) : see previous definition of 'DBG_PRINTEXCEPTION_C'
+     1>f:\working\work\2007_04_20\antikeylogger\ntstatus.h(1011): warning C4005: 'DBG_RIPEXCEPTION' : macro redefinition
+                 c:\program files\microsoft sdks\windows\v7.0a\include\winnt.h(1995) : see previous definition of 'DBG_RIPEXCEPTION'
+     1>f:\working\work\2007_04_20\antikeylogger\ntstatus.h(1390): warning C4005: 'STATUS_LONGJUMP' : macro redefinition
+                 c:\program files\microsoft sdks\windows\v7.0a\include\winnt.h(2002) : see previous definition of 'STATUS_LONGJUMP'
+     1>f:\working\work\2007_04_20\antikeylogger\ntstatus.h(1417): warning C4005: 'STATUS_UNWIND_CONSOLIDATE' : macro redefinition
+                 c:\program files\microsoft sdks\windows\v7.0a\include\winnt.h(2003) : see previous definition of 'STATUS_UNWIND_CONSOLIDATE'
+     1>f:\working\work\2007_04_20\antikeylogger\ntstatus.h(1629): warning C4005: 'STATUS_INVALID_PARAMETER' : macro redefinition
+                 c:\program files\microsoft sdks\windows\v7.0a\include\winnt.h(2008) : see previous definition of 'STATUS_INVALID_PARAMETER'
+     1>f:\working\work\2007_04_20\antikeylogger\ntstatus.h(4377): warning C4005: 'STATUS_DLL_NOT_FOUND' : macro redefinition
+                 c:\program files\microsoft sdks\windows\v7.0a\include\winnt.h(2025) : see previous definition of 'STATUS_DLL_NOT_FOUND'
+     1>f:\working\work\2007_04_20\antikeylogger\ntstatus.h(4406): warning C4005: 'STATUS_ORDINAL_NOT_FOUND' : macro redefinition
+                 c:\program files\microsoft sdks\windows\v7.0a\include\winnt.h(2026) : see previous definition of 'STATUS_ORDINAL_NOT_FOUND'
+     1>f:\working\work\2007_04_20\antikeylogger\ntstatus.h(4416): warning C4005: 'STATUS_ENTRYPOINT_NOT_FOUND' : macro redefinition
+                 c:\program files\microsoft sdks\windows\v7.0a\include\winnt.h(2027) : see previous definition of 'STATUS_ENTRYPOINT_NOT_FOUND'
+     1>f:\working\work\2007_04_20\antikeylogger\ntstatus.h(4504): warning C4005: 'STATUS_DLL_INIT_FAILED' : macro redefinition
+                 c:\program files\microsoft sdks\windows\v7.0a\include\winnt.h(2029) : see previous definition of 'STATUS_DLL_INIT_FAILED'
+     1>f:\working\work\2007_04_20\antikeylogger\ntstatus.h(8145): warning C4005: 'STATUS_STACK_BUFFER_OVERRUN' : macro redefinition
+                 c:\program files\microsoft sdks\windows\v7.0a\include\winnt.h(2033) : see previous definition of 'STATUS_STACK_BUFFER_OVERRUN'
+     1>f:\working\work\2007_04_20\antikeylogger\ntstatus.h(10006): warning C4005: 'STATUS_SXS_EARLY_DEACTIVATION' : macro redefinition
+                 c:\program files\microsoft sdks\windows\v7.0a\include\winnt.h(2037) : see previous definition of 'STATUS_SXS_EARLY_DEACTIVATION'
+     1>f:\working\work\2007_04_20\antikeylogger\ntstatus.h(10015): warning C4005: 'STATUS_SXS_INVALID_DEACTIVATION' : macro redefinition
+                 c:\program files\microsoft sdks\windows\v7.0a\include\winnt.h(2038) : see previous definition of 'STATUS_SXS_INVALID_DEACTIVATION'
+     1>f:\working\work\2007_04_20\antikeylogger\wintrust.h(6): warning C4005: '_WIN32_WINNT' : macro redefinition
+                 c:\program files\microsoft visual studio 10.0\vc\atlmfc\include\afxv_w32.h(32) : see previous definition of '_WIN32_WINNT'
+     1>f:\working\work\2007_04_20\antikeylogger\hook.cpp(167): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(246) : see declaration of 'stricmp'
+     1>f:\working\work\2007_04_20\antikeylogger\hook.cpp(206): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(246) : see declaration of 'stricmp'
+     1>f:\working\work\2007_04_20\antikeylogger\hook.cpp(253): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(246) : see declaration of 'stricmp'
+     1>f:\working\work\2007_04_20\antikeylogger\hook.cpp(305): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(283) : see declaration of 'wcscpy'
+     1>f:\working\work\2007_04_20\antikeylogger\hook.cpp(335): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(276) : see declaration of 'wcscat'
+     1>f:\working\work\2007_04_20\antikeylogger\hook.cpp(337): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(276) : see declaration of 'wcscat'
+     1>f:\working\work\2007_04_20\antikeylogger\hook.cpp(358): warning C4996: 'wcsicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _wcsicmp. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(390) : see declaration of 'wcsicmp'
+     1>f:\working\work\2007_04_20\antikeylogger\hook.cpp(363): warning C4996: 'wcsicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _wcsicmp. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(390) : see declaration of 'wcsicmp'
+     1>f:\working\work\2007_04_20\antikeylogger\hook.cpp(378): warning C4996: 'wcsicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _wcsicmp. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(390) : see declaration of 'wcsicmp'
+     1>f:\working\work\2007_04_20\antikeylogger\hook.cpp(413): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(283) : see declaration of 'wcscpy'
+     1>f:\working\work\2007_04_20\antikeylogger\hook.cpp(417): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(283) : see declaration of 'wcscpy'
+     1>f:\working\work\2007_04_20\antikeylogger\hook.cpp(465): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(283) : see declaration of 'wcscpy'
+         hash&crypt.cpp
+     1>f:\working\work\2007_04_20\antikeylogger\hash&crypt.cpp(1329): error C2065: 'i' : undeclared identifier
+     1>f:\working\work\2007_04_20\antikeylogger\hash&crypt.cpp(1329): error C2065: 'i' : undeclared identifier
+     1>f:\working\work\2007_04_20\antikeylogger\hash&crypt.cpp(1329): error C2065: 'i' : undeclared identifier
+     1>f:\working\work\2007_04_20\antikeylogger\hash&crypt.cpp(1331): error C2065: 'i' : undeclared identifier
+     1>f:\working\work\2007_04_20\antikeylogger\hash&crypt.cpp(1339): error C2065: 'i' : undeclared identifier
+     1>f:\working\work\2007_04_20\antikeylogger\hash&crypt.cpp(1342): error C2065: 'i' : undeclared identifier
+     1>f:\working\work\2007_04_20\antikeylogger\hash&crypt.cpp(1350): error C2065: 'i' : undeclared identifier
+     1>f:\working\work\2007_04_20\antikeylogger\hash&crypt.cpp(1353): error C2065: 'i' : undeclared identifier
+     1>f:\working\work\2007_04_20\antikeylogger\hash&crypt.cpp(1361): error C2065: 'i' : undeclared identifier
+     1>f:\working\work\2007_04_20\antikeylogger\hash&crypt.cpp(1364): error C2065: 'i' : undeclared identifier
+     1>f:\working\work\2007_04_20\antikeylogger\hash&crypt.cpp(1372): error C2065: 'i' : undeclared identifier
+         Global.cpp
+     1>f:\working\work\2007_04_20\antikeylogger\ntstatus.h(1002): warning C4005: 'DBG_PRINTEXCEPTION_C' : macro redefinition
+                 c:\program files\microsoft sdks\windows\v7.0a\include\winnt.h(1994) : see previous definition of 'DBG_PRINTEXCEPTION_C'
+     1>f:\working\work\2007_04_20\antikeylogger\ntstatus.h(1011): warning C4005: 'DBG_RIPEXCEPTION' : macro redefinition
+                 c:\program files\microsoft sdks\windows\v7.0a\include\winnt.h(1995) : see previous definition of 'DBG_RIPEXCEPTION'
+     1>f:\working\work\2007_04_20\antikeylogger\ntstatus.h(1390): warning C4005: 'STATUS_LONGJUMP' : macro redefinition
+                 c:\program files\microsoft sdks\windows\v7.0a\include\winnt.h(2002) : see previous definition of 'STATUS_LONGJUMP'
+     1>f:\working\work\2007_04_20\antikeylogger\ntstatus.h(1417): warning C4005: 'STATUS_UNWIND_CONSOLIDATE' : macro redefinition
+                 c:\program files\microsoft sdks\windows\v7.0a\include\winnt.h(2003) : see previous definition of 'STATUS_UNWIND_CONSOLIDATE'
+     1>f:\working\work\2007_04_20\antikeylogger\ntstatus.h(1629): warning C4005: 'STATUS_INVALID_PARAMETER' : macro redefinition
+                 c:\program files\microsoft sdks\windows\v7.0a\include\winnt.h(2008) : see previous definition of 'STATUS_INVALID_PARAMETER'
+     1>f:\working\work\2007_04_20\antikeylogger\ntstatus.h(4377): warning C4005: 'STATUS_DLL_NOT_FOUND' : macro redefinition
+                 c:\program files\microsoft sdks\windows\v7.0a\include\winnt.h(2025) : see previous definition of 'STATUS_DLL_NOT_FOUND'
+     1>f:\working\work\2007_04_20\antikeylogger\ntstatus.h(4406): warning C4005: 'STATUS_ORDINAL_NOT_FOUND' : macro redefinition
+                 c:\program files\microsoft sdks\windows\v7.0a\include\winnt.h(2026) : see previous definition of 'STATUS_ORDINAL_NOT_FOUND'
+     1>f:\working\work\2007_04_20\antikeylogger\ntstatus.h(4416): warning C4005: 'STATUS_ENTRYPOINT_NOT_FOUND' : macro redefinition
+                 c:\program files\microsoft sdks\windows\v7.0a\include\winnt.h(2027) : see previous definition of 'STATUS_ENTRYPOINT_NOT_FOUND'
+     1>f:\working\work\2007_04_20\antikeylogger\ntstatus.h(4504): warning C4005: 'STATUS_DLL_INIT_FAILED' : macro redefinition
+                 c:\program files\microsoft sdks\windows\v7.0a\include\winnt.h(2029) : see previous definition of 'STATUS_DLL_INIT_FAILED'
+     1>f:\working\work\2007_04_20\antikeylogger\ntstatus.h(8145): warning C4005: 'STATUS_STACK_BUFFER_OVERRUN' : macro redefinition
+                 c:\program files\microsoft sdks\windows\v7.0a\include\winnt.h(2033) : see previous definition of 'STATUS_STACK_BUFFER_OVERRUN'
+     1>f:\working\work\2007_04_20\antikeylogger\ntstatus.h(10006): warning C4005: 'STATUS_SXS_EARLY_DEACTIVATION' : macro redefinition
+                 c:\program files\microsoft sdks\windows\v7.0a\include\winnt.h(2037) : see previous definition of 'STATUS_SXS_EARLY_DEACTIVATION'
+     1>f:\working\work\2007_04_20\antikeylogger\ntstatus.h(10015): warning C4005: 'STATUS_SXS_INVALID_DEACTIVATION' : macro redefinition
+                 c:\program files\microsoft sdks\windows\v7.0a\include\winnt.h(2038) : see previous definition of 'STATUS_SXS_INVALID_DEACTIVATION'
+     1>f:\working\work\2007_04_20\antikeylogger\global.cpp(16): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(283) : see declaration of 'wcscpy'
+     1>f:\working\work\2007_04_20\antikeylogger\global.cpp(266): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(283) : see declaration of 'wcscpy'
+     1>f:\working\work\2007_04_20\antikeylogger\global.cpp(267): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(276) : see declaration of 'wcscat'
+     1>f:\working\work\2007_04_20\antikeylogger\global.cpp(288): error C2664: 'UuidToStringW' : cannot convert parameter 2 from 'PWSTR *' to 'RPC_WSTR *'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>f:\working\work\2007_04_20\antikeylogger\global.cpp(294): error C2664: 'UuidToStringW' : cannot convert parameter 2 from 'PWSTR *' to 'RPC_WSTR *'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>f:\working\work\2007_04_20\antikeylogger\global.cpp(300): error C2664: 'UuidToStringW' : cannot convert parameter 2 from 'PWSTR *' to 'RPC_WSTR *'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>f:\working\work\2007_04_20\antikeylogger\global.cpp(306): error C2664: 'UuidToStringW' : cannot convert parameter 2 from 'PWSTR *' to 'RPC_WSTR *'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>f:\working\work\2007_04_20\antikeylogger\global.cpp(312): error C2664: 'UuidToStringW' : cannot convert parameter 2 from 'PWSTR *' to 'RPC_WSTR *'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>f:\working\work\2007_04_20\antikeylogger\global.cpp(318): error C2664: 'UuidToStringW' : cannot convert parameter 2 from 'PWSTR *' to 'RPC_WSTR *'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>f:\working\work\2007_04_20\antikeylogger\global.cpp(324): error C2664: 'UuidToStringW' : cannot convert parameter 2 from 'PWSTR *' to 'RPC_WSTR *'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>f:\working\work\2007_04_20\antikeylogger\global.cpp(330): error C2664: 'UuidToStringW' : cannot convert parameter 2 from 'PWSTR *' to 'RPC_WSTR *'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>f:\working\work\2007_04_20\antikeylogger\global.cpp(336): error C2664: 'UuidToStringW' : cannot convert parameter 2 from 'PWSTR *' to 'RPC_WSTR *'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>f:\working\work\2007_04_20\antikeylogger\global.cpp(342): error C2664: 'UuidToStringW' : cannot convert parameter 2 from 'PWSTR *' to 'RPC_WSTR *'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>f:\working\work\2007_04_20\antikeylogger\global.cpp(348): error C2664: 'UuidToStringW' : cannot convert parameter 2 from 'PWSTR *' to 'RPC_WSTR *'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>f:\working\work\2007_04_20\antikeylogger\global.cpp(354): error C2664: 'UuidToStringW' : cannot convert parameter 2 from 'PWSTR *' to 'RPC_WSTR *'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>f:\working\work\2007_04_20\antikeylogger\global.cpp(360): error C2664: 'UuidToStringW' : cannot convert parameter 2 from 'PWSTR *' to 'RPC_WSTR *'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>f:\working\work\2007_04_20\antikeylogger\global.cpp(366): error C2664: 'UuidToStringW' : cannot convert parameter 2 from 'PWSTR *' to 'RPC_WSTR *'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>f:\working\work\2007_04_20\antikeylogger\global.cpp(668): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\working\work\2007_04_20\antikeylogger\global.cpp(677): error C2065: 'i' : undeclared identifier
+     1>f:\working\work\2007_04_20\antikeylogger\global.cpp(677): error C2065: 'i' : undeclared identifier
+     1>f:\working\work\2007_04_20\antikeylogger\global.cpp(677): error C2065: 'i' : undeclared identifier
+     1>f:\working\work\2007_04_20\antikeylogger\global.cpp(678): error C2065: 'i' : undeclared identifier
+     1>f:\working\work\2007_04_20\antikeylogger\global.cpp(681): error C2065: 'i' : undeclared identifier
+         FileInfo.cpp
+     1>f:\working\work\2007_04_20\antikeylogger\fileinfo.cpp(22): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(283) : see declaration of 'wcscpy'
+     1>f:\working\work\2007_04_20\antikeylogger\fileinfo.cpp(26): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(283) : see declaration of 'wcscpy'
+     1>f:\working\work\2007_04_20\antikeylogger\fileinfo.cpp(27): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(283) : see declaration of 'wcscpy'
+     1>f:\working\work\2007_04_20\antikeylogger\fileinfo.cpp(28): warning C4996: 'wcstombs': This function or variable may be unsafe. Consider using wcstombs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdlib.h(533) : see declaration of 'wcstombs'
+     1>f:\working\work\2007_04_20\antikeylogger\fileinfo.cpp(50): error C2664: 'wcscpy' : cannot convert parameter 2 from 'PWORD' to 'const wchar_t *'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>f:\working\work\2007_04_20\antikeylogger\fileinfo.cpp(54): error C2664: 'wcscat' : cannot convert parameter 2 from 'PWORD' to 'const wchar_t *'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+         DetectPage.cpp
+         Comm.cpp
+     1>f:\working\work\2007_04_20\antikeylogger\ntstatus.h(1002): warning C4005: 'DBG_PRINTEXCEPTION_C' : macro redefinition
+                 c:\program files\microsoft sdks\windows\v7.0a\include\winnt.h(1994) : see previous definition of 'DBG_PRINTEXCEPTION_C'
+     1>f:\working\work\2007_04_20\antikeylogger\ntstatus.h(1011): warning C4005: 'DBG_RIPEXCEPTION' : macro redefinition
+                 c:\program files\microsoft sdks\windows\v7.0a\include\winnt.h(1995) : see previous definition of 'DBG_RIPEXCEPTION'
+     1>f:\working\work\2007_04_20\antikeylogger\ntstatus.h(1390): warning C4005: 'STATUS_LONGJUMP' : macro redefinition
+                 c:\program files\microsoft sdks\windows\v7.0a\include\winnt.h(2002) : see previous definition of 'STATUS_LONGJUMP'
+     1>f:\working\work\2007_04_20\antikeylogger\ntstatus.h(1417): warning C4005: 'STATUS_UNWIND_CONSOLIDATE' : macro redefinition
+                 c:\program files\microsoft sdks\windows\v7.0a\include\winnt.h(2003) : see previous definition of 'STATUS_UNWIND_CONSOLIDATE'
+     1>f:\working\work\2007_04_20\antikeylogger\ntstatus.h(1629): warning C4005: 'STATUS_INVALID_PARAMETER' : macro redefinition
+                 c:\program files\microsoft sdks\windows\v7.0a\include\winnt.h(2008) : see previous definition of 'STATUS_INVALID_PARAMETER'
+     1>f:\working\work\2007_04_20\antikeylogger\ntstatus.h(4377): warning C4005: 'STATUS_DLL_NOT_FOUND' : macro redefinition
+                 c:\program files\microsoft sdks\windows\v7.0a\include\winnt.h(2025) : see previous definition of 'STATUS_DLL_NOT_FOUND'
+     1>f:\working\work\2007_04_20\antikeylogger\ntstatus.h(4406): warning C4005: 'STATUS_ORDINAL_NOT_FOUND' : macro redefinition
+                 c:\program files\microsoft sdks\windows\v7.0a\include\winnt.h(2026) : see previous definition of 'STATUS_ORDINAL_NOT_FOUND'
+     1>f:\working\work\2007_04_20\antikeylogger\ntstatus.h(4416): warning C4005: 'STATUS_ENTRYPOINT_NOT_FOUND' : macro redefinition
+                 c:\program files\microsoft sdks\windows\v7.0a\include\winnt.h(2027) : see previous definition of 'STATUS_ENTRYPOINT_NOT_FOUND'
+     1>f:\working\work\2007_04_20\antikeylogger\ntstatus.h(4504): warning C4005: 'STATUS_DLL_INIT_FAILED' : macro redefinition
+                 c:\program files\microsoft sdks\windows\v7.0a\include\winnt.h(2029) : see previous definition of 'STATUS_DLL_INIT_FAILED'
+     1>f:\working\work\2007_04_20\antikeylogger\ntstatus.h(8145): warning C4005: 'STATUS_STACK_BUFFER_OVERRUN' : macro redefinition
+                 c:\program files\microsoft sdks\windows\v7.0a\include\winnt.h(2033) : see previous definition of 'STATUS_STACK_BUFFER_OVERRUN'
+     1>f:\working\work\2007_04_20\antikeylogger\ntstatus.h(10006): warning C4005: 'STATUS_SXS_EARLY_DEACTIVATION' : macro redefinition
+                 c:\program files\microsoft sdks\windows\v7.0a\include\winnt.h(2037) : see previous definition of 'STATUS_SXS_EARLY_DEACTIVATION'
+     1>f:\working\work\2007_04_20\antikeylogger\ntstatus.h(10015): warning C4005: 'STATUS_SXS_INVALID_DEACTIVATION' : macro redefinition
+                 c:\program files\microsoft sdks\windows\v7.0a\include\winnt.h(2038) : see previous definition of 'STATUS_SXS_INVALID_DEACTIVATION'
+     1>f:\working\work\2007_04_20\antikeylogger\comm.cpp(81): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(175) : see declaration of 'strncat'
+     1>f:\working\work\2007_04_20\antikeylogger\comm.cpp(113): warning C4996: 'swprintf': swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.
+                 c:\program files\microsoft visual studio 10.0\vc\include\swprintf.inl(85) : see declaration of 'swprintf'
+         AntiKeyloggerDlg.cpp
+     1>f:\working\work\2007_04_20\antikeylogger\antikeyloggerdlg.cpp(101): error C2065: 'i' : undeclared identifier
+     1>f:\working\work\2007_04_20\antikeylogger\antikeyloggerdlg.cpp(101): error C2065: 'i' : undeclared identifier
+     1>f:\working\work\2007_04_20\antikeylogger\antikeyloggerdlg.cpp(101): error C2065: 'i' : undeclared identifier
+     1>f:\working\work\2007_04_20\antikeylogger\antikeyloggerdlg.cpp(102): error C2065: 'i' : undeclared identifier
+     1>f:\working\work\2007_04_20\antikeylogger\antikeyloggerdlg.cpp(106): error C2065: 'i' : undeclared identifier
+     1>f:\working\work\2007_04_20\antikeylogger\antikeyloggerdlg.cpp(106): error C2065: 'i' : undeclared identifier
+     1>f:\working\work\2007_04_20\antikeylogger\antikeyloggerdlg.cpp(106): error C2065: 'i' : undeclared identifier
+     1>f:\working\work\2007_04_20\antikeylogger\antikeyloggerdlg.cpp(107): error C2065: 'i' : undeclared identifier
+     1>f:\working\work\2007_04_20\antikeylogger\antikeyloggerdlg.cpp(779): error C2660: 'CWnd::DrawAnimatedRects' : function does not take 4 arguments
+     1>f:\working\work\2007_04_20\antikeylogger\antikeyloggerdlg.cpp(788): error C2660: 'CWnd::DrawAnimatedRects' : function does not take 4 arguments
+     1>f:\working\work\2007_04_20\antikeylogger\antikeyloggerdlg.cpp(1006): error C2660: 'CWnd::DrawAnimatedRects' : function does not take 4 arguments
+     1>f:\working\work\2007_04_20\antikeylogger\antikeyloggerdlg.cpp(1179): warning C4018: '<' : signed/unsigned mismatch
+         AntiKeylogger.cpp
+     1>f:\working\work\2007_04_20\antikeylogger\antikeylogger.cpp(59): warning C4996: 'CWinApp::Enable3dControlsStatic': CWinApp::Enable3dControlsStatic is no longer needed. You should remove this call.
+                 c:\program files\microsoft visual studio 10.0\vc\atlmfc\include\afxwin.h(5347) : see declaration of 'CWinApp::Enable3dControlsStatic'
+         AdvancedOptionPage.cpp
+         Generating Code...
+     1>f:\working\work\2007_04_20\antikeylogger\trans.cpp(329): warning C4700: uninitialized local variable 'i' used
+     1>Done Building Project "F:\working\Work\2007_04_20\AntiKeylogger\AntiKeylogger.vcxproj" (rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:07.82

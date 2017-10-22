@@ -1,0 +1,297 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Korean resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 18, 1\r\n"
+    "#pragma code_page(949)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\AntiKeylogger.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.kor\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DRIVER
+//
+
+IDR_DRIVER_XP              DRIVER  MOVEABLE PURE   "res\\SHKeyPro_xp.sys"
+IDR_DRIVER_2K              DRIVER  MOVEABLE PURE   "res\\SHKeyPro_2k.sys"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\AntiKeylogger.ico"
+IDI_TRAY_ACTIVE         ICON    DISCARDABLE     "res\\FACE03.ICO"
+IDI_TRAY_DEACTIVE       ICON    DISCARDABLE     "res\\FACE04.ICO"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ANTIKEYLOGGER_DIALOG DIALOGEX 0, 0, 383, 284
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "AntiKeylogger"
+FONT 9, "±¼¸²"
+BEGIN
+    PUSHBUTTON      "Stop",IDC_STOP,39,255,50,14
+    CONTROL         "Tree1",IDC_TREE_CTRL,"SysTreeView32",TVS_HASBUTTONS | 
+                    TVS_HASLINES | TVS_LINESATROOT | TVS_SHOWSELALWAYS | 
+                    WS_BORDER | WS_TABSTOP,7,7,110,237
+    CONTROL         "",IDC_PAGE_FRAME,"Static",SS_GRAYFRAME | NOT WS_VISIBLE,
+                    124,27,252,250
+    LTEXT           "",IDC_CAPTION_BAR,124,7,252,15
+END
+
+IDD_NOTIFY DIALOGEX 0, 0, 155, 80
+STYLE WS_POPUP | WS_BORDER
+EXSTYLE WS_EX_TOOLWINDOW
+FONT 9, "@±¼¸²"
+BEGIN
+    LTEXT           "",IDC_NOTIFY,7,7,141,66,SS_NOTIFY,WS_EX_TRANSPARENT
+END
+
+IDD_DETECT DIALOG DISCARDABLE  0, 0, 252, 250
+STYLE WS_CHILD
+FONT 9, "@±¼¸²"
+BEGIN
+    CONTROL         "List1",IDC_DETECT_LIST,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_NOCOLUMNHEADER | 
+                    LVS_NOSORTHEADER | WS_BORDER | WS_TABSTOP,0,0,246,245
+END
+
+IDD_WHITE DIALOG DISCARDABLE  0, 0, 252, 250
+STYLE WS_CHILD
+FONT 9, "@±¼¸²"
+BEGIN
+    CONTROL         "List1",IDC_WHITE_LIST,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_NOCOLUMNHEADER | 
+                    LVS_NOSORTHEADER | WS_BORDER | WS_TABSTOP,0,0,247,225
+    PUSHBUTTON      "Add",IDC_ADD,50,233,50,14
+    PUSHBUTTON      "Remove",IDC_REMOVE,153,233,50,14
+END
+
+IDD_OPTION_USER DIALOG DISCARDABLE  0, 0, 266, 264
+STYLE WS_CHILD
+FONT 9, "@±¼¸²"
+BEGIN
+    CONTROL         "Disable splash-screen when the program start",
+                    IDC_CHECK00,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,0,6,
+                    266,10
+    CONTROL         "Display the icon in the system tray",IDC_CHECK01,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,0,26,266,10
+    CONTROL         "Switch off notices about changes in the auto-detected modules list",
+                    IDC_CHECK02,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,0,45,
+                    266,10
+    CONTROL         "Switch sound effects off",IDC_CHECK4,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,0,64,266,10
+END
+
+IDD_OPTION_ADVANCED DIALOG DISCARDABLE  0, 0, 266, 264
+STYLE WS_CHILD
+FONT 9, "@±¼¸²"
+BEGIN
+    CONTROL         "Automatically launch protection when the system starts",
+                    IDC_CHECK10,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,0,6,
+                    249,10
+    CONTROL         "Prohibit switching off the protection if the user doesn't have administrator privilege",
+                    IDC_CHECK11,"Button",BS_AUTOCHECKBOX | BS_MULTILINE | 
+                    WS_TABSTOP,0,27,249,16
+    CONTROL         "Switch the clipboard protection on",IDC_CHECK12,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,0,53,249,10
+    CONTROL         "Disable splash-screen on logon desktop",IDC_CHECK13,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,0,73,249,10
+    CONTROL         "Prohibits users without administrator privilege from changing settings of the program interface",
+                    IDC_CHECK14,"Button",BS_AUTOCHECKBOX | BS_MULTILINE | 
+                    WS_TABSTOP,0,93,249,16
+    CONTROL         "Use password protection",IDC_CHECK15,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,0,119,249,10
+    CONTROL         "Check certificates of the modules from the Auto-detected modules list automatically",
+                    IDC_CHECK16,"Button",BS_AUTOCHECKBOX | BS_MULTILINE | 
+                    WS_TABSTOP,0,139,249,16
+    CONTROL         "Automatically enable modules with certificates from Microsoft",
+                    IDC_CHECK17,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,0,165,
+                    249,10
+    CONTROL         "Don't display automatically enabled modules in the Auto-detected modules list",
+                    IDC_CHECK18,"Button",BS_AUTOCHECKBOX | BS_MULTILINE | 
+                    WS_TABSTOP,0,185,249,16
+    CONTROL         "Display certificates",IDC_CHECK19,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,0,211,77,10
+    CONTROL         "Allow a user without administrator privileges to manage protection policy",
+                    IDC_CHECK1A,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,0,231,
+                    249,10
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041204B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "AntiKeylogger MFC ÀÀ¿ë ÇÁ·Î±×·¥\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "AntiKeylogger\0"
+            VALUE "LegalCopyright", "Copyright (C) 2007\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "AntiKeylogger.EXE\0"
+            VALUE "ProductName", "AntiKeylogger ÀÀ¿ë ÇÁ·Î±×·¥\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x412, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ANTIKEYLOGGER_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 376
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 277
+    END
+
+    IDD_NOTIFY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 148
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 73
+    END
+
+    IDD_OPTION_ADVANCED, DIALOG
+    BEGIN
+        RIGHTMARGIN, 249
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// BIN
+//
+
+IDR_DATA                BIN     DISCARDABLE     "res\\Data.bin"
+IDR_DATA28              BIN     DISCARDABLE     "res\\bin1.bin"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_NOTIFY              BITMAP  DISCARDABLE     "res\\Notify.bmp"
+IDB_LOGO                BITMAP  DISCARDABLE     "res\\Logo.bmp"
+#endif    // Korean resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+LANGUAGE 18, 1
+#pragma code_page(949)
+#endif //_WIN32
+#include "res\AntiKeylogger.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.kor\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
