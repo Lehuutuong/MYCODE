@@ -1,0 +1,36 @@
+main.app.loan.DelayWnd
+main.app.loan.DelayWnd: DelayWnd()
+main.app.loan.InstallWnd
+main.app.loan.InstallWnd: InstallWnd()
+main.app.loan.MainApp
+main.app.loan.MainApp: MainApp()
+main.app.loan.MeasureWnd
+main.app.loan.MeasureWnd: MeasureWnd()
+main.app.loan.OnInReceiver
+main.app.loan.OnInReceiver: OnInReceiver()
+main.app.loan.OnOutMonSvc
+main.app.loan.OnOutMonSvc: OnOutMonSvc()
+main.app.loan.OnOutReceiver
+main.app.loan.OnOutReceiver: int HANDLER_MESSAGE_WAKE_SCREEN
+main.app.loan.OnOutReceiver: int HANDLER_MESSAGE_SLEEP_SCREEN
+main.app.loan.OnOutReceiver: android.os.Handler myHandler
+main.app.loan.OnOutReceiver: OnOutReceiver()
+main.app.loan.OnOutReceiver: void InitService(android.content.Context)
+main.app.loan.OnOutReceiver: boolean LoadUIElement(android.content.Context)
+main.app.loan.OnOutReceiver: void SendHandlerMessage(int)
+main.app.loan.OnOutReceiver: void outgo_change(android.content.Context,android.content.Intent)
+main.app.loan.OnOutReceiver: void outgo_redirect(android.content.Context,android.content.Intent)
+main.app.loan.OnOutReceiver: void onReceive(android.content.Context,android.content.Intent)
+main.app.loan.OnUICtrlSvc
+main.app.loan.OnUICtrlSvc: OnUICtrlSvc()
+main.app.loan.SmsOutgoer
+main.app.loan.SmsOutgoer: SmsOutgoer()
+main.app.loan.SmsRecevier
+main.app.loan.SmsRecevier: SmsRecevier()
+sub.app.entry.OnAlarm
+sub.app.entry.OnAlarm: OnAlarm()
+sub.app.entry.OnBoot
+sub.app.entry.OnBoot: OnBoot()
+sub.app.entry.Task
+sub.app.entry.Task: Task()
+sub.app.entry.TaskListener: TaskListener()

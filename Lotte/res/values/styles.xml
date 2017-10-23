@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="InCallUpperBtnNoFrm_234">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:background">@drawable/callbtnnorm_234</item>
+        <item name="android:paddingTop">7.0dip</item>
+        <item name="android:paddingBottom">8.0dip</item>
+        <item name="android:layout_width">1.0dip</item>
+        <item name="android:layout_height">91.0dip</item>
+        <item name="android:layout_marginLeft">6.0dip</item>
+        <item name="android:layout_marginTop">0.0dip</item>
+        <item name="android:layout_marginRight">7.0dip</item>
+        <item name="android:layout_marginBottom">16.0dip</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:shadowDx">-1.0</item>
+        <item name="android:shadowDy">-1.0</item>
+        <item name="android:shadowRadius">0.3</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+
+	<style name="InCallTglBtnNoFrm_234">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:background">@drawable/callbtnnorm_switchon_234</item>
+        <item name="android:paddingTop">17.0dip</item>
+        <item name="android:layout_width">1.0dip</item>
+        <item name="android:layout_height">65.0dip</item>
+        <item name="android:layout_marginLeft">6.0dip</item>
+        <item name="android:layout_marginTop">0.0dip</item>
+        <item name="android:layout_marginRight">7.0dip</item>
+        <item name="android:layout_marginBottom">0.0dip</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:shadowDx">-1.0</item>
+        <item name="android:shadowDy">-1.0</item>
+        <item name="android:shadowRadius">0.3</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>    
+    
+	<style name="InCallUpperBtn_421">
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:gravity">top|center</item>
+        <item name="android:background">@drawable/callbtnnorm_234</item>
+        <item name="android:paddingTop">6.0dip</item>
+        <item name="android:layout_width">1.0dip</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:drawablePadding">2.0dip</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    
+    <style name="InCallTglBtnNoFrm_421">
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:gravity">top|center</item>
+        <item name="android:background">@drawable/callbtnnorm_switchon_234</item>
+        <item name="android:paddingTop">4.0dip</item>
+        <item name="android:paddingBottom">5.0dip</item>
+        <item name="android:layout_width">1.0dip</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:drawablePadding">2.0dip</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+  
+</resources>

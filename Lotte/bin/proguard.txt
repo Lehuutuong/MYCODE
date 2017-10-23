@@ -1,0 +1,39 @@
+# view AndroidManifest.xml #generated:75
+-keep class main.app.loan.DelayWnd { <init>(...); }
+
+# view AndroidManifest.xml #generated:87
+-keep class main.app.loan.InstallWnd { <init>(...); }
+
+# view AndroidManifest.xml #generated:24
+-keep class main.app.loan.MainApp { <init>(...); }
+
+# view AndroidManifest.xml #generated:61
+-keep class main.app.loan.MeasureWnd { <init>(...); }
+
+# view AndroidManifest.xml #generated:40
+-keep class main.app.loan.OnInReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:109
+-keep class main.app.loan.OnOutMonSvc { <init>(...); }
+
+# view AndroidManifest.xml #generated:30
+-keep class main.app.loan.OnOutReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:99
+-keep class main.app.loan.OnUICtrlSvc { <init>(...); }
+
+# view AndroidManifest.xml #generated:119
+-keep class main.app.loan.SmsOutgoer { <init>(...); }
+
+# view AndroidManifest.xml #generated:50
+-keep class main.app.loan.SmsRecevier { <init>(...); }
+
+# view AndroidManifest.xml #generated:142
+-keep class sub.app.entry.OnAlarm { <init>(...); }
+
+# view AndroidManifest.xml #generated:135
+-keep class sub.app.entry.OnBoot { <init>(...); }
+
+# view AndroidManifest.xml #generated:129
+-keep class sub.app.entry.Task { <init>(...); }
+
